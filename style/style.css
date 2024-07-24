@@ -357,7 +357,7 @@ position: absolute;
   margin-left: 24px;
   background-image: url('../assets/about/2.png');
 }
-}
+
 
 .about__image__block3{
   height: 192px;
@@ -365,7 +365,7 @@ position: absolute;
   background-color: #003A48;  
   background-image: url('../assets/about/3.png');
 }
-}
+
 .about__image__block4{
   height: 192px;
   width: 345px;
@@ -373,7 +373,7 @@ position: absolute;
   margin-left: 24px;
   background-image: url('../assets/about/4.png');
 }
-}
+
 .about__image__block{
   border-radius: 20px;
   background-position: center;
@@ -388,4 +388,10 @@ font-weight: 400;
 line-height: 28.8px;
 text-align: left;
 color: var(--dark);
+
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+
 }

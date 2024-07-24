@@ -3,9 +3,89 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <title>Document</title>
+    <title>Woman Education climate</title>
+
+    <link rel="stylesheet" href="./style/style.css">
 </head>
 <body>
-    
+    <div class="main__wrapper">
+        <!-----HEADER--->
+        <header class="header">
+            <div class="header__container">
+                <div class="header__logo">
+                    <!-- Logo here -->
+                </div>
+
+                <div class="header__nav__language">
+                    <div class="header_navigation">
+                        <a href="#about_us">Bizim haqqımızda</a>
+                        <a href="#from_founder">Təsisçisi</a>
+                        <a href="#activities">Fəaliyyətlərimiz</a>
+                        <a href="#connections">Tərəfdaşlarımız</a>
+                        <a href="#news">Xəbərlər</a>
+                        <a href="#contact">Bizimlə əlaqə</a>
+                    </div>
+
+                    <div class="header__language">
+                        <div class="language__block">
+                            AZ
+                        </div>
+                    </div>
+                </div>
+            </div>
+        </header>
+
+        <!----MAIN container--->
+        <div class="hero__container">
+            <div class="hero__desc">
+                <!-- Hero description here -->
+            </div>
+            <div class="hero__image">
+                <!-- Hero image here -->
+            </div>
+        </div>
+        
+        <!-----About us----->
+        <section id="about_us" class="about_us">
+            <!-- About us content here -->
+        </section>
+
+        <!----From founder---->
+        <section id="from_founder" class="from_founder">
+            <!-- From founder content here -->
+        </section>
+
+        <!----Activities--->
+        <section id="activities" class="activities">
+            <!-- Activities content here -->
+        </section>
+
+        <!----Connections---->
+        <section id="connections" class="connections">
+            <!-- Connections content here -->
+        </section>
+
+        <!---News---->
+        <section id="news" class="news">
+            <!-- News content here -->
+        </section>
+
+        <!---Footer---->
+        <footer id="contact" class="footer">
+            <!-- Contact content here -->
+        </footer>
+    </div>
+
+    <script>
+        // Smooth scrolling polyfill for older browsers
+        document.querySelectorAll('a[href^="#"]').forEach(anchor => {
+            anchor.addEventListener('click', function(e) {
+                e.preventDefault();
+                document.querySelector(this.getAttribute('href')).scrollIntoView({
+                    behavior: 'smooth'
+                });
+            });
+        });
+    </script>
 </body>
 </html>

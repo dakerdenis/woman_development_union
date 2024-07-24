@@ -1,5 +1,6 @@
 @import url('https://fonts.googleapis.com/css2?family=Montserrat:ital,wght@0,100..900;1,100..900&display=swap');
 @import url('https://fonts.googleapis.com/css2?family=Montserrat+Alternates:ital,wght@0,100;0,200;0,300;0,400;0,500;0,600;0,700;0,800;0,900;1,100;1,200;1,300;1,400;1,500;1,600;1,700;1,800;1,900&display=swap');
+
 /**! ***COLORS*************/
 /**! ***COLORS*************/
 /**! ***COLORS*************/
@@ -7,10 +8,7 @@
   --dark: #0F172A;
   --light_green: #7CB040;
   --second_blue: #003A48;
-  
 }
-
-
 
 * {
   padding: 0;
@@ -45,8 +43,8 @@ aside {
 
 html,
 body {
- /* height: 100%;*/
- min-height: 1500px;
+  /* height: 100%;*/
+  min-height: 1500px;
   width: 100%;
   font-size: 100%;
   line-height: 1;
@@ -55,7 +53,7 @@ body {
   -moz-text-size-adjust: 100%;
   -webkit-text-size-adjust: 100%;
   font-family: "Montserrat", sans-serif;
-  background-color: #000;
+  background-color: #fff;
   color: #fff;
 }
 
@@ -112,6 +110,52 @@ h6 {
   font-size: inherit;
   font-weight: 400;
 }
-.main__wrapper {
-  padding-top: 60px; /* Ensure there is enough padding at the top */
+
+.main__wrapper {}
+
+/* Add smooth scrolling to the whole page */
+html {
+  scroll-behavior: smooth;
+}
+
+/* Example styles for the sections */
+.main__wrapper section {
+  padding: 60px 20px;
+  height: 100vh;
+  border-bottom: 2px solid #000;
+}
+
+.header {
+  position: fixed;
+  top: 0;
+  width: 100%;
+  height: 50px;
+  background-color: var(--dark); /* Change background color as needed */
+  color: #fff; /* Change text color as needed */
+  z-index: 1000; /* Ensure the header is above other content */
+}
+
+.header__container {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+  height: 100%;
+  padding: 0 20px; /* Add padding as needed */
+}
+
+.header_navigation a {
+  margin: 0 10px;
+  text-decoration: none;
+  color: #fff; /* Ensure links are readable against the header background */
+}
+
+.header__nav__language {
+  display: flex;
+  align-items: center;
+}
+
+.hero__container {
+  display: flex;
+  justify-content: space-between;
+  padding-top: 60px; /* To prevent content from being hidden behind the fixed header */
 }

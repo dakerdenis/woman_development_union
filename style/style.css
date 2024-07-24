@@ -395,3 +395,119 @@ line-height: 28.8px;
 text-align: left;
 
 }
+
+.founder__wrapper{
+  flex-direction: row-reverse;
+}
+.founder__wrapper .about__images{
+  width: 500px;
+  height: 471px;
+  box-shadow: 0px 0px 10px 0px #00000012;
+  border-radius: 20px;
+  gap: 10px;
+box-shadow: 0px 20px 25px -5px #0000001A;
+overflow: hidden;
+display: flex;
+justify-content: center;
+align-items: center;
+}
+.founder__wrapper .about__images img {
+  width: 100%;
+}
+.founder__wrapper .about__text{
+  width: 600px;
+}
+.founder__name{
+
+font-size: 48px;
+font-weight: 600;
+line-height: 76.8px;
+text-align: left;
+color: var(--second_blue);
+margin-bottom: 5px;
+}
+.about__name__block-founder{
+  text-align: right;
+
+  width: 90%;
+  margin: 0 auto;
+}
+.about__name__block-founder .about__name{
+  position: absolute;
+  right: 0;
+
+}
+.about__name__block-founder img{
+  position: absolute;
+    z-index: 100;
+    bottom: -11px;
+    right: 168px;
+}
+
+
+.activities{
+  width: 100%;
+  height: 520px;
+}
+.activities__wrapper{
+  width: 100%;
+  height: 374px;
+}
+
+
+
+/*****SWIPER********/
+.swiper {
+  width: calc(3 * 410px + 2 * 30px); /* 3 slides + 2 spaces between slides */
+  height: 352px;
+  position: relative;
+  overflow: hidden; /* Hide overflow to ensure only 3 slides are visible */
+}
+
+.swiper-slide {
+  text-align: center;
+  font-size: 18px;
+  background: #9e6969;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  width: 410px !important;
+  height: 352px !important;
+}
+
+.swiper-slide img {
+  display: block;
+  width: 100%;
+  height: 100%;
+  object-fit: cover;
+}
+
+.swiper-button-prev,
+.swiper-button-next {
+  color: #000; /* Customize button color */
+  position: absolute;
+  top: 50%;
+  transform: translateY(-50%);
+  z-index: 10;
+  width: 44px;
+  height: 44px;
+  background: rgba(255, 255, 255, 0.8); /* Semi-transparent background */
+  border-radius: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  box-shadow: 0 2px 5px rgba(0, 0, 0, 0.15);
+}
+
+.swiper-button-prev {
+  left: -60px; /* Position outside the Swiper container */
+}
+
+.swiper-button-next {
+  right: -60px; /* Position outside the Swiper container */
+}
+
+.swiper-button-prev::after,
+.swiper-button-next::after {
+  font-size: 18px;
+}

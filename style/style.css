@@ -671,7 +671,8 @@ html {
   height: 78px;
   margin-bottom: 46px;
 }
-.connection__element__image img{
+
+.connection__element__image img {
 
   height: 100%;
   object-fit: contain;
@@ -696,25 +697,28 @@ html {
 
 
 /********NEWS***********/
-.news{
+.news {
   margin-top: 60px;
 }
-.news__name_block{
+
+.news__name_block {
   width: 1280px;
   margin: 0 auto;
   position: relative;
   margin-bottom: 40px;
   height: 63px;
 }
+
 .news__name_block p {
-font-size: 56px;
-font-weight: 800;
-line-height: 61.6px;
-position: absolute;
-right: 0;
-z-index: 200;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 61.6px;
+  position: absolute;
+  right: 0;
+  z-index: 200;
 }
-.news__name_block  img {
+
+.news__name_block img {
   position: absolute;
   right: 0;
   z-index: 100;
@@ -722,6 +726,40 @@ z-index: 200;
 }
 
 /************footer**************/
+.footer__container {
+  width: 100%;
+}
+
+.footer__contact__block {
+  max-width: 1412px;
+  margin: 0 auto;
+  height: 531px;
+  display: flex;
+  justify-content: space-between;
+  background-image: url('../assets/footer.png');
+  background-position: center;
+  background-size: cover;
+  border-radius: 20px;
+
+  padding: 35px 40px 35px 57px;
+}
+
+.footer__contact__data {
+  width: 491px;
+  height: 464px;
+  border-radius: 20px;
+  background-color: #FFFFFF99;
+
+}
+
+.footer__contact__name {
+  padding: 29px;
+  margin: 0 auto;
+  text-align: center;
+}
+
+
+
 
 
 
@@ -731,24 +769,27 @@ z-index: 200;
   display: flex;
   justify-content: space-between;
 }
+
 .footer__rights {
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.5px;
-text-align: left;
-color: var(--second_blue);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  color: var(--second_blue);
 }
+
 .footer__created {
   display: flex;
   align-items: center;
 }
+
 .footer__created p {
-color:#00000059 ;
-font-size: 20px;
-font-weight: 400;
-line-height: 28px;
-letter-spacing: 0.5px;
-text-align: left;
-margin-right: 28px;
+  color: #00000059;
+  font-size: 20px;
+  font-weight: 400;
+  line-height: 28px;
+  letter-spacing: 0.5px;
+  text-align: left;
+  margin-right: 28px;
 }

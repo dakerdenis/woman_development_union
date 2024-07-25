@@ -123,8 +123,7 @@ html {
 }
 
 /* Example styles for the sections */
-.main__wrapper section {
-}
+.main__wrapper section {}
 
 .header {
   position: fixed;
@@ -176,11 +175,9 @@ html {
   padding: 12px;
   border-radius: 18px;
   background: rgb(0, 104, 56);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 104, 56, 1) 0%,
-    rgba(0, 58, 72, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(0, 104, 56, 1) 0%,
+      rgba(0, 58, 72, 1) 100%);
   display: flex;
   align-items: center;
   justify-content: center;
@@ -252,13 +249,12 @@ html {
   height: 64px;
   width: 247px;
   background: rgb(0, 104, 56);
-  background: linear-gradient(
-    90deg,
-    rgba(0, 104, 56, 1) 0%,
-    rgba(0, 58, 72, 1) 100%
-  );
+  background: linear-gradient(90deg,
+      rgba(0, 104, 56, 1) 0%,
+      rgba(0, 58, 72, 1) 100%);
   border-radius: 18px;
 }
+
 .hero__button a {
   display: flex;
   align-items: center;
@@ -283,16 +279,19 @@ html {
   height: 540px;
   width: 100%;
 }
+
 .about__container {
   width: 100%;
   height: 100%;
   padding: 0px 49px;
 }
+
 .about__name__block {
   width: 100%;
   position: relative;
   height: 62px;
 }
+
 .about__name {
   font-size: 56px;
   font-weight: 800;
@@ -301,23 +300,27 @@ html {
   position: absolute;
   z-index: 200;
 }
+
 .about__name__block img {
   position: absolute;
   z-index: 100;
   bottom: -11px;
 }
+
 .gradient-text {
-  background: linear-gradient(
-    to right,
-    #006838,
-    #002e3a
-  ); /* Define your gradient colors here */
+  background: linear-gradient(to right,
+      #006838,
+      #002e3a);
+  /* Define your gradient colors here */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 48px; /* Example font size */
-  font-weight: bold; /* Example font weight */
+  font-size: 48px;
+  /* Example font size */
+  font-weight: bold;
+  /* Example font weight */
   max-width: 467px;
 }
+
 .about__wrapper {
   display: flex;
   justify-content: space-evenly;
@@ -325,6 +328,7 @@ html {
   width: 100%;
   margin-top: 37px;
 }
+
 .about__images {
   width: 668px;
   height: 100%;
@@ -333,6 +337,7 @@ html {
   justify-content: space-between;
   height: 408px;
 }
+
 .about__images__line1 {
   height: 192px;
   width: 100%;
@@ -340,6 +345,7 @@ html {
   align-items: center;
   justify-content: flex-end;
 }
+
 .about__images__line2 {
   height: 192px;
   width: 100%;
@@ -347,6 +353,7 @@ html {
   align-items: center;
   justify-content: flex-start;
 }
+
 .about__image__block1 {
   width: 264px;
   height: 192px;
@@ -401,6 +408,7 @@ html {
 .founder__wrapper {
   flex-direction: row-reverse;
 }
+
 .founder__wrapper .about__images {
   width: 500px;
   height: 471px;
@@ -413,12 +421,15 @@ html {
   justify-content: center;
   align-items: center;
 }
+
 .founder__wrapper .about__images img {
   width: 100%;
 }
+
 .founder__wrapper .about__text {
   width: 600px;
 }
+
 .founder__name {
   font-size: 48px;
   font-weight: 600;
@@ -427,16 +438,19 @@ html {
   color: var(--second_blue);
   margin-bottom: 5px;
 }
+
 .about__name__block-founder {
   text-align: right;
 
   width: 90%;
   margin: 0 auto;
 }
+
 .about__name__block-founder .about__name {
   position: absolute;
   right: 0;
 }
+
 .about__name__block-founder img {
   position: absolute;
   z-index: 100;
@@ -449,10 +463,12 @@ html {
   height: 520px;
   margin-top: 80px;
 }
+
 .activities__wrapper {
   width: 100%;
   height: 374px;
 }
+
 .activities__name_block {
   width: 80%;
   margin: 0 auto;
@@ -463,17 +479,18 @@ html {
 .activities__wrapper,
 .news__wrapper {
   position: relative;
-  width: calc(
-    3 * 410px + 2 * 30px + 120px
-  ); /* Increase width to fit navigation buttons */
+  width: calc(3 * 410px + 2 * 30px + 120px);
+  /* Increase width to fit navigation buttons */
   margin: 0 auto;
 }
 
 .swiper {
-  width: calc(3 * 410px + 2 * 30px); /* 3 slides + 2 spaces between slides */
+  width: calc(3 * 410px + 2 * 30px);
+  /* 3 slides + 2 spaces between slides */
   height: 352px;
   position: relative;
-  overflow: hidden; /* Hide overflow to ensure only 3 slides are visible */
+  overflow: hidden;
+  /* Hide overflow to ensure only 3 slides are visible */
 }
 
 .swiper-slide {
@@ -490,7 +507,8 @@ html {
 
 .swiper-button-prev,
 .swiper-button-next {
-  color: #00000000; /* Customize button color */
+  color: #00000000;
+  /* Customize button color */
   position: absolute;
   top: 50%;
   transform: translateY(-50%);
@@ -505,11 +523,13 @@ html {
 }
 
 .swiper-button-prev {
-  left: -60px; /* Position outside the Swiper container */
+  left: -60px;
+  /* Position outside the Swiper container */
 }
 
 .swiper-button-next {
-  right: -60px; /* Position outside the Swiper container */
+  right: -60px;
+  /* Position outside the Swiper container */
 }
 
 .swiper-button-prev::after,
@@ -521,6 +541,7 @@ html {
   background-size: contain;
   background-repeat: no-repeat;
 }
+
 .swiper-button-next::after {
   background-image: url("../assets/next.svg");
 }
@@ -528,24 +549,29 @@ html {
 .swiper-button-prev::after {
   background-image: url("../assets/prev.svg");
 }
+
 /***SLİDE********/
 .slider__container {
   width: 100%;
   height: 100%;
 }
+
 .slider__image {
   width: 410px;
   height: 220px;
   overflow: hidden;
 }
+
 .slider__image img {
   width: 100%;
   object-fit: cover;
 }
+
 .slider__desc__container {
   height: 154px;
   width: 100%;
 }
+
 .slider__desc__desc {
   margin-top: 15px;
   font-size: 16px;
@@ -555,6 +581,7 @@ html {
 
   color: var(--second_blue);
 }
+
 .slider__desc__name {
   font-size: 40px;
   font-weight: 700;
@@ -562,6 +589,7 @@ html {
   text-align: left;
   color: var(--second_blue);
 }
+
 .slider__desc__button button {
   margin-top: 16px;
   width: 158px;
@@ -571,6 +599,7 @@ html {
   justify-content: space-between;
   background-color: rgba(0, 0, 0, 0);
 }
+
 .slider__desc__button p {
   font-size: 16px;
   font-weight: 500;
@@ -579,6 +608,7 @@ html {
   text-align: left;
   color: var(--green);
 }
+
 .slider__desc__button img {
   height: 24px;
   width: 24px;
@@ -591,30 +621,75 @@ html {
 }
 
 .connections__name {
-  background: linear-gradient(
-    to right,
-    #006838,
-    #002e3a
-  ); /* Define your gradient colors here */
+  background: linear-gradient(to right,
+      #006838,
+      #002e3a);
+  /* Define your gradient colors here */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
-  font-size: 48px; /* Example font size */
-  font-weight: bold; /* Example font weight */
-  width: 400px ;margin: 0 auto; 
+  font-size: 48px;
+  /* Example font size */
+  font-weight: bold;
+  /* Example font weight */
+  width: 400px;
+  margin: 0 auto;
   margin-top: 80px;
 }
 
-.connections__desc{
+.connections__desc {
   max-width: 900px;
-color: var(--dark);
-font-family: Roboto;
-font-size: 18px;
-font-weight: 400;
-line-height: 28.8px;
-text-align: center;
-margin: 0 auto;
-margin-top: 24px;
-margin-bottom: 55px;
+  color: var(--dark);
+  font-family: Roboto;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: center;
+  margin: 0 auto;
+  margin-top: 24px;
+  margin-bottom: 55px;
 
 
+}
+
+.connections__wrapper {
+  display: flex;
+  flex-wrap: wrap;
+  justify-content: space-between;
+  width: 1252px;
+  margin: 0 auto;
+
+}
+
+.connection__element {
+  width: 366px;
+  max-height: 700px;
+
+}
+
+.connection__element__image {
+  width: 100%;
+  height: 78px;
+  margin-bottom: 46px;
+}
+.connection__element__image img{
+
+  height: 100%;
+  object-fit: contain;
+}
+
+.connection__name {
+  color: var(--dark);
+  font-size: 24px;
+  font-weight: 700;
+  line-height: 26.4px;
+  text-align: left;
+  margin-bottom: 16px;
+}
+
+.connection__text {
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: var(--dark);
 }

@@ -818,7 +818,9 @@ html {
 
 .footer__contact__form {
   width: 798px;
-
+  display: flex;
+  flex-direction: column;
+  justify-content: space-between;
 }
 
 .footer__form {
@@ -917,12 +919,39 @@ html {
 
 }
 
+.footer__navigation {
+  width: 798px;
+  height: 90px;
+  display: flex;
+  align-items: center;
+  justify-content: space-evenly;
+  background-color: #FFFFFF99;
+  border-radius: 20px;
+  padding: 0px 80px;
+}
 
+.footer__navigation a {
+  color: var(--dark);
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
+
+}
+
+.footer__form__name2{
+  margin-top: 10px;
+  margin-bottom: 4px;
+}
 
 .footer__rights__created {
+  margin-top: 20px;
+  margin-bottom: 15px;
   width: 100%;
   padding: 0px 33px;
   display: flex;
+  align-items: center;
   justify-content: space-between;
 }
 

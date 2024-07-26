@@ -22,12 +22,13 @@ document.addEventListener('DOMContentLoaded', () => {
                 // Handle link
                 if (data.link) {
                     popupLink.href = data.link;
-                    popupLink.style.display = 'inline'; // Show the link if it exists
+                    popupLink.style.display = 'flex'; // Show the link if it exists
                 } else {
                     popupLink.style.display = 'none'; // Hide the link if it doesn't exist
                 }
 
                 popup.style.display = 'flex';
+                document.body.classList.add('no-scroll'); // Disable background scroll
             } else {
                 console.error('Data not found for ID:', id);
             }
@@ -36,11 +37,13 @@ document.addEventListener('DOMContentLoaded', () => {
 
     closeBtn.addEventListener('click', () => {
         popup.style.display = 'none';
+        document.body.classList.remove('no-scroll'); // Enable background scroll
     });
 
     window.addEventListener('click', (event) => {
         if (event.target === popup) {
             popup.style.display = 'none';
+            document.body.classList.remove('no-scroll'); // Enable background scroll
         }
     });
 });

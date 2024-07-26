@@ -1,13 +1,13 @@
 {
     "1": {
         "name": "Lorem Ipsum Dolor est met",
-        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec vulputate nisl. Cras tellus urna, consequat imperdiet lorem eu, aliquam vulputate augue. Sed gravida varius lacus, sit amet congue enim viverra nec. Ut pulvinar hendrerit blandit. In hac habitasse platea dictumst. Aliquam posuere mi lectus, et condimentum nulla consequat porta. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec vulputate nisl. Cras tellus urna, consequat imperdiet lorem eu, aliquam vulputate augue. Sed gravida varius lacus, sit amet congue enim viverra nec. Ut pulvinar hendrerit blandit. In hac habitasse platea dictumst. Aliquam posuere mi lectus, et condimentum nulla consequat Duis molestie lacinia dui et convallis.",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec vulputate nisl. Cras tellus urna, consequat imperdiet lorem eu, aliquam vulputate augue. Sed gravida varius lacus, sit amet congue enim viverra nec. Ut pulvinar hendrerit blandit. In hac habitasse platea dictumst. Aliquam posuere mi lectus, et condimentum nulla consequat porta. Duis molestie lacinia dui et convallis. Aenean volutpat facilisis felis id luctus. Vestibulum fringilla non diam at tincidunt. Proin efficitur at metus venenatis suscipit. Sed eros orci, luctus sed ultrices non, sodales sed odio. Maecenas semper tincidunt volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec vulputate nisl. Cras tellus urna, consequat imperdiet lorem eu, aliquam vulputate augue. Sed gravida varius lacus, sit amet congue enim viverra nec. Ut pulvinar hendrerit blandit. In hac habitasse platea dictumst. Aliquam posuere mi lectus, et condimentum nulla consequat porta. Duis molestie lacinia dui et convallis. Aenean volutpat facilisis felis id luctus. Vestibulum fringilla non diam at tincidunt. Proin efficitur at metus venenatis suscipit. Sed eros orci, luctus sed ultrices non, sodales sed odio. Maecenas semper tincidunt volutpat.",
         "image": "./assets/news/1.png",
         "link": "https://example.com"
     },
     "2": {
-        "name": "Another Example",
-        "text": "Detailed information for Another Example.",
+        "name": "Another Example 2",
+        "text": "Detailed information for Another Example 2.",
         "image": "./assets/news/2.png"
     },
     "3": {
@@ -24,6 +24,38 @@
     "5": {
         "name": "Another Example 5",
         "text": "Detailed information for Another Example 5.",
+        "image": "./assets/news/3.png"
+    },
+    "6": {
+        "name": "Another Example 6",
+        "text": "Detailed information for Another Example 6.",
+        "image": "./assets/news/1.png",
+        "link": "https://example.com"
+    },
+    "7": {
+        "name": "Another Example 7",
+        "text": "Detailed information for Another Example 7.",
+        "image": "./assets/news/2.png"
+    },
+    "8": {
+        "name": "Another Example 8",
+        "text": "Detailed information for Another Example 8.",
+        "image": "./assets/news/3.png",
+        "link": "https://anotherexample.com"
+    },
+    "9": {
+        "name": "Another Example 9",
+        "text": "Detailed information for Another Example 9.",
+        "image": "./assets/news/1.png"
+    },
+    "10": {
+        "name": "Another Example 10",
+        "text": "Detailed information for Another Example 10.",
+        "image": "./assets/news/2.png"
+    },
+    "11": {
+        "name": "Another Example 11",
+        "text": "Detailed information for Another Example 11.",
         "image": "./assets/news/3.png"
     }
 }

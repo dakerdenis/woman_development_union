@@ -147,19 +147,30 @@ html {
   padding: 0px 80px 0px 40px;
 }
 .header__logo_placeholder{
-
+  position: relative;
   height: 80px;
   display: flex;
   align-items: center;
 
 }
-.header__logo_placeholder img{
+.header__underline{
+  position: absolute;
+
+  object-fit: cover;
+  transform: scale(0.7);
+  bottom: 6px;
+  left: 50px;
+  z-index: 100;
+}
+.header__logo_img{
   height: 100%;
 }
 .header__logo_placeholder p{
   display: block;
   width: 360px;
   margin-left: 10px;
+  position: relative;
+  z-index: 200;
 
   font-size: 28px;
   background: linear-gradient(to right,
@@ -372,7 +383,7 @@ justify-content: center;
   background: linear-gradient(90deg,
       rgba(0, 104, 56, 1) 0%,
       rgba(0, 58, 72, 1) 100%);
-  border-radius: 18px;
+  border-radius: 8px;
 }
 
 .hero__button a {
@@ -391,8 +402,9 @@ justify-content: center;
 
 .hero__image {
   position: absolute;
-  right: 5%;
+  right: 8%;
   top: calc(50% - 259px);
+  transform: scale(1.2);
 }
 
 .about_us {
@@ -1226,7 +1238,7 @@ max-width: 686px;
 
 .popup-text{
   width: 500px;
-  height: 350px;
+  height: 390px;
   overflow-y: auto;
   padding: 0px 15px 0px 0px;
 

@@ -588,7 +588,12 @@ justify-content: center;
   color: var(--second_blue);
   margin-bottom: 5px;
 }
-
+.founder__position{ 
+  color: var(--green);
+  margin-bottom: 10px;
+  font-weight: 600;
+  font-size: 18px;
+}
 .about__name__block-founder {
   text-align: right;
 
@@ -1294,3 +1299,12 @@ margin-top: 30px;
   border-radius: 10px; /* Rounding the corners */
 }
 
+@media only screen and (max-width: 1690px) {
+  .hero__image{
+    transform: scale(0.9);
+    right: 5%;
+  }
+  .popup-name{
+    font-size: 40px;
+  }
+}

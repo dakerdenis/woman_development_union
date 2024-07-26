@@ -4,10 +4,30 @@
 <head>
     <meta charset="UTF-8" />
     <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-    <title>Woman Education climate</title>
+    <title>Woman Education Climate - WDF PU</title>
+    
+    <!-- SEO Meta Tags -->
+    <meta name="description" content="The mission of WDF PU is to help increase the role of women in social life through cultural, scientific, and business initiatives. We promote gender equality, human rights, and provide education and skills improvement for women. Our activities include courses, seminars, conferences, charity events, and humanitarian aid, focusing on adapting to climate change and reducing disaster risks." />
+    <meta name="keywords" content="WDF PU, Women Empowerment, Gender Equality, Human Rights, Climate Change, Social Development, Education, Skills Improvement, Cultural Events, Humanitarian Aid" />
+    <meta name="author" content="WDF PU" />
+    <meta property="og:title" content="Woman Education Climate - WDF PU" />
+    <meta property="og:description" content="The mission of WDF PU is to help increase the role of women in social life through cultural, scientific, and business initiatives. We promote gender equality, human rights, and provide education and skills improvement for women. Our activities include courses, seminars, conferences, charity events, and humanitarian aid, focusing on adapting to climate change and reducing disaster risks." />
+    <meta property="og:image" content="./assets/Blob.png" />
+    <meta property="og:url" content="URL_TO_YOUR_WEBSITE" />
+    <meta property="og:type" content="website" />
+    <meta name="twitter:card" content="summary_large_image" />
+    <meta name="twitter:title" content="Woman Education Climate - WDF PU" />
+    <meta name="twitter:description" content="The mission of WDF PU is to help increase the role of women in social life through cultural, scientific, and business initiatives. We promote gender equality, human rights, and provide education and skills improvement for women. Our activities include courses, seminars, conferences, charity events, and humanitarian aid, focusing on adapting to climate change and reducing disaster risks." />
+    <meta name="twitter:image" content="./assets/Blob.png" />
+    
+    <!-- Favicon -->
+    <link rel="icon" href="./assets/prev.svg"  />
+    
+    <!-- Stylesheets -->
     <link rel="stylesheet" href="https://unpkg.com/swiper/swiper-bundle.min.css" />
     <link rel="stylesheet" href="./style/style.css" />
 </head>
+
 
 <body>
     <div class="main__wrapper">
@@ -15,9 +35,10 @@
         <header class="header">
             <div class="header__container">
                 <div class="header__logo_placeholder">
-                    <!-- Logo here -->
+                    <img src="./assets/logo.PNG" alt="" srcset="">
+                    <p>Woman Development Future</p>
                 </div>
-                <div class="header__logo"></div>
+
 
                 <div class="header__nav__language">
                     <div class="header_navigation">
@@ -29,9 +50,14 @@
                         <a href="#contact">Bizimlə əlaqə</a>
                     </div>
 
-                    <div class="header__language">
-                        <div class="language__block">AZ</div>
+
+                    <div class="dropdown">
+                        <button class="dropdown-button">AZ</button>
+                        <div class="dropdown-content">
+                            <a href="./ru/index.html">RU</a>
+                        </div>
                     </div>
+
                 </div>
             </div>
         </header>
@@ -59,7 +85,7 @@
         <!-----About us----->
         <section id="about_us" class="about_us">
             <div class="sheet__container sheet__container1">
-                    <img src="./assets/sheets/sheet1.svg" alt="">
+                <img src="./assets/sheets/sheet1.svg" alt="">
             </div>
             <div class="about__container">
                 <div class="about__name__block">
@@ -105,7 +131,7 @@
         <section id="from_founder" class="from_founder">
             <div class="sheet__container sheet__container2">
                 <img src="./assets/sheets/sheet2.svg" alt="">
-        </div>
+            </div>
             <div class="about__container">
                 <div class="about__name__block about__name__block-founder">
                     <p class="about__name gradient-text">Layihənin təsisçisi</p>
@@ -146,7 +172,8 @@
                 <!-- Swiper -->
                 <div class="swiper mySwiper">
                     <div class="swiper-wrapper">
-                        <div class="swiper-slide">
+
+                        <div class="swiper-slide" data-id="1">
                             <div class="slider__container">
                                 <div class="slider__image">
                                     <img src="./assets/news/1.png" alt="" />
@@ -155,7 +182,7 @@
                                     <div class="slider__desc__desc">Lorem ipsum</div>
                                     <div class="slider__desc__name">Lorem Ipsum</div>
                                     <div class="slider__desc__button">
-                                        <button>
+                                        <button class="popup-btn">
                                             <p>Ətraflı Məlumat</p>
                                             <img src="./assets/arrow-right.svg" alt="" />
                                         </button>
@@ -163,7 +190,8 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+
+                        <div class="swiper-slide" data-id="2">
                             <div class="slider__container">
                                 <div class="slider__image">
                                     <img src="./assets/news/1.png" alt="" />
@@ -172,7 +200,7 @@
                                     <div class="slider__desc__desc">Lorem ipsum</div>
                                     <div class="slider__desc__name">Lorem Ipsum</div>
                                     <div class="slider__desc__button">
-                                        <button>
+                                        <button class="popup-btn">
                                             <p>Ətraflı Məlumat</p>
                                             <img src="./assets/arrow-right.svg" alt="" />
                                         </button>
@@ -180,7 +208,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-id="3">
                             <div class="slider__container">
                                 <div class="slider__image">
                                     <img src="./assets/news/1.png" alt="" />
@@ -189,7 +217,7 @@
                                     <div class="slider__desc__desc">Lorem ipsum</div>
                                     <div class="slider__desc__name">Lorem Ipsum</div>
                                     <div class="slider__desc__button">
-                                        <button>
+                                        <button class="popup-btn">
                                             <p>Ətraflı Məlumat</p>
                                             <img src="./assets/arrow-right.svg" alt="" />
                                         </button>
@@ -197,7 +225,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-id="4">
                             <div class="slider__container">
                                 <div class="slider__image">
                                     <img src="./assets/news/1.png" alt="" />
@@ -206,7 +234,7 @@
                                     <div class="slider__desc__desc">Lorem ipsum</div>
                                     <div class="slider__desc__name">Lorem Ipsum</div>
                                     <div class="slider__desc__button">
-                                        <button>
+                                        <button class="popup-btn">
                                             <p>Ətraflı Məlumat</p>
                                             <img src="./assets/arrow-right.svg" alt="" />
                                         </button>
@@ -214,7 +242,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-id="5">
                             <div class="slider__container">
                                 <div class="slider__image">
                                     <img src="./assets/news/1.png" alt="" />
@@ -223,7 +251,7 @@
                                     <div class="slider__desc__desc">Lorem ipsum</div>
                                     <div class="slider__desc__name">Lorem Ipsum</div>
                                     <div class="slider__desc__button">
-                                        <button>
+                                        <button class="popup-btn">
                                             <p>Ətraflı Məlumat</p>
                                             <img src="./assets/arrow-right.svg" alt="" />
                                         </button>
@@ -231,7 +259,7 @@
                                 </div>
                             </div>
                         </div>
-                        <div class="swiper-slide">
+                        <div class="swiper-slide" data-id="6">
                             <div class="slider__container">
                                 <div class="slider__image">
                                     <img src="./assets/news/1.png" alt="" />
@@ -240,7 +268,7 @@
                                     <div class="slider__desc__desc">Lorem ipsum</div>
                                     <div class="slider__desc__name">Lorem Ipsum</div>
                                     <div class="slider__desc__button">
-                                        <button>
+                                        <button class="popup-btn">
                                             <p>Ətraflı Məlumat</p>
                                             <img src="./assets/arrow-right.svg" alt="" />
                                         </button>
@@ -259,74 +287,81 @@
         <section id="connections" class="connections">
             <div class="sheet__container sheet__container3">
                 <img src="./assets/sheets/sheet3.svg" alt="">
-        </div>
-                <div class="connection__container">
-                    <div class="connections__name">Tərəfdaşlarımız</div>
+            </div>
+            <div class="connection__container">
+                <div class="connections__name">Tərəfdaşlarımız</div>
 
-                    <div class="connections__desc">
-                        Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec
-                        vulputate nisl. Cras tellus urna, consequat imperdiet lorem eu,
-                        aliquam vulputate augue.
-                    </div>
-        
-                    <div class="connections__wrapper">
-        
-                        <!----------->
-                        <div class="connection__element">
-                            <div class="connection__element__image">
-                                <img src="./assets/partners/partners.jpeg" alt="">
-                            </div>
-        
-                            <div class="connection__name">CAN İnternational</div>
-                            <div class="connection__text">
-                                The largest network of climate NGOs in the Eastern Europe,
-                                Caucasus and Central Asia (EECCA) region. The  network has existed
-                                since 2008 and it is part of the Climate Action Network
-                                International, which brings together more than 1 500 civil society
-                                organizations in 130 countries. At the moment, 53 member NGOs in
-                                11 countries of the region (Armenia, Azerbaijan, Belarus, Georgia,
-                                Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Uzbekistan,
-                                Ukraine) are members of the network. We are working to ensure that
-                                the civil society of the region is strong and organized, that the
-                                EECCA countries implement policies leading to climate neutrality
-                                and a green economy, and that there is coherence between the first
-                                and second processes based on climate justice.
-                            </div>
-                        </div>
-                        <!----------->
-                        <div class="connection__element">
-                            <div class="connection__element__image">
-                                <img src="./assets/partners/partners2.png" alt="" srcset="">
-                            </div>
-        
-                            <div class="connection__name">GDNR</div>
-                            <div class="connection__text">
-                                The largest international network of civil society organizations working together to strengthen
-                                the resilience of communities most at risk of disasters. GNDR  which brings together more than 1
-                                835 civil society organizations in 130 countries. Member organizations connect and collaborate,
-                                benefit from capacity strengthening opportunities, implement our global projects, and get
-                                involved in research and advocacy initiatives.
-                            </div>
-                        </div>
-                        <!----------->
-                        <div class="connection__element">
-                            <div class="connection__element__image"></div>
-        
-                            <div class="connection__name">lorem Ipsum</div>
-                            <div class="connection__text">
-                                Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec vulputate nisl. Cras tellus
-                                urna, consequat imperdiet lorem eu, aliquam vulputate augue. Sed gravida varius lacus, sit amet
-                                congue enim viverra nec. Ut pulvinar hendrerit blandit. In hac habitasse platea dictumst.
-                                Aliquam posuere mi lectus, et condimentum nulla consequat porta. Duis molestie lacinia dui et
-                                convallis.
-                                Aenean volutpat facilisis felis id luctus. Vestibulum fringilla non diam at tincidunt. Proin
-                                efficitur at metus venenatis suscipit. Sed eros orci, luctus sed ultrices non, sodales sed odio.
-                                Maecenas semper tincidunt volutpat.
-                            </div>
-                        </div>
-                        <!----------->
-                    </div>
+                <div class="connections__desc">
+                    Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec
+                    vulputate nisl. Cras tellus urna, consequat imperdiet lorem eu,
+                    aliquam vulputate augue.
                 </div>
+
+                <div class="connections__wrapper">
+
+                    <!----------->
+                    <div class="connection__element">
+                        <div class="connection__element__image">
+                            <img src="./assets/partners/partners.jpeg" alt="">
+                        </div>
+
+                        <div class="connection__name">CAN İnternational</div>
+                        <div class="connection__text">
+                            The largest network of climate NGOs in the Eastern Europe,
+                            Caucasus and Central Asia (EECCA) region. The  network has existed
+                            since 2008 and it is part of the Climate Action Network
+                            International, which brings together more than 1 500 civil society
+                            organizations in 130 countries. At the moment, 53 member NGOs in
+                            11 countries of the region (Armenia, Azerbaijan, Belarus, Georgia,
+                            Kazakhstan, Kyrgyzstan, Moldova, Russia, Tajikistan, Uzbekistan,
+                            Ukraine) are members of the network. We are working to ensure that
+                            the civil society of the region is strong and organized, that the
+                            EECCA countries implement policies leading to climate neutrality
+                            and a green economy, and that there is coherence between the first
+                            and second processes based on climate justice.
+                        </div>
+                    </div>
+                    <!----------->
+                    <div class="connection__element">
+                        <div class="connection__element__image">
+                            <img src="./assets/partners/partners2.png" alt="" srcset="">
+                        </div>
+
+                        <div class="connection__name">GDNR</div>
+                        <div class="connection__text">
+                            The largest international network of civil society organizations working together to
+                            strengthen
+                            the resilience of communities most at risk of disasters. GNDR  which brings together more
+                            than 1
+                            835 civil society organizations in 130 countries. Member organizations connect and
+                            collaborate,
+                            benefit from capacity strengthening opportunities, implement our global projects, and get
+                            involved in research and advocacy initiatives.
+                        </div>
+                    </div>
+                    <!----------->
+                    <div class="connection__element">
+                        <div class="connection__element__image"></div>
+
+                        <div class="connection__name">lorem Ipsum</div>
+                        <div class="connection__text">
+                            Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec vulputate nisl. Cras
+                            tellus
+                            urna, consequat imperdiet lorem eu, aliquam vulputate augue. Sed gravida varius lacus, sit
+                            amet
+                            congue enim viverra nec. Ut pulvinar hendrerit blandit. In hac habitasse platea dictumst.
+                            Aliquam posuere mi lectus, et condimentum nulla consequat porta. Duis molestie lacinia dui
+                            et
+                            convallis.
+                            Aenean volutpat facilisis felis id luctus. Vestibulum fringilla non diam at tincidunt. Proin
+                            efficitur at metus venenatis suscipit. Sed eros orci, luctus sed ultrices non, sodales sed
+                            odio.
+                            Maecenas semper tincidunt volutpat.
+                        </div>
+                    </div>
+                    <!----------->
+                </div>
+            </div>
         </section>
 
         <!---News---->
@@ -503,7 +538,7 @@
         <footer id="contact" class="footer">
             <div class="sheet__container sheet__container5">
                 <img src="./assets/sheets/sheet5.svg" alt="">
-        </div>
+            </div>
             <div class="footer__container">
 
                 <div class="footer__contact__block">
@@ -576,14 +611,16 @@
                                     </div>
 
                                     <div class="footer__input">
-                                        <input placeholder="Zəhmət olmasa, Adınızı qeyd edin" type="text" name="text" id="">
+                                        <input placeholder="Zəhmət olmasa, Adınızı qeyd edin" type="text" name="text"
+                                            id="">
                                     </div>
                                     <div class="footer__form__name footer__form__name2">
                                         E-poçt
                                     </div>
 
                                     <div class="footer__input">
-                                        <input placeholder="Zəhmət olmasa, e-poçt qeyd edin" type="email" name="text" id="">
+                                        <input placeholder="Zəhmət olmasa, e-poçt qeyd edin" type="email" name="text"
+                                            id="">
                                     </div>
                                 </div>
                                 <div class="footer__form__block">
@@ -626,6 +663,33 @@
                 </div>
             </div>
         </footer>
+
+
+
+        <!-- Popup container -->
+        <div id="popup" class="popup">
+            <div class="popup-content">
+                <span class="close-btn">
+                    <img src="./assets/popup_close.svg" alt="">
+                </span>
+                <div class="popup__name__container">
+                    <h2 id="popup-name" class="popup-name"></h2>
+                    <img src="./assets/under_name_popup.svg" alt="">
+                </div>
+
+
+                <div class="popup__content__wrapper">
+                    <img id="popup-img" src="" class="popup-image" alt="Popup Image">
+                    <div class="popup-text">
+                        <p id="popup-text" class=""></p>
+                    </div>
+
+                </div>
+                <a id="popup-link" class="popup-link" href="#" target="_blank">More Info</a> <!-- New link element -->
+            </div>
+        </div>
+
+
     </div>
     <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
     <script>
@@ -648,6 +712,9 @@
                 prevEl: ".news .swiper-button-prev",
             },
         });
+
+
+
     </script>
     <script>
         // Smooth scrolling polyfill for older browsers
@@ -660,6 +727,9 @@
             });
         });
     </script>
+
+    <script src="script.js"></script>
+    <script src="popup-text.js"></script>
 </body>
 
 </html>

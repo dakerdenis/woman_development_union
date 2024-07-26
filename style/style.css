@@ -130,7 +130,8 @@ html {
   top: 0;
   width: 100%;
   height: 105px;
-  background-color: #cacaca;
+  box-shadow: rgba(0, 0, 0, 0.24) 0px 3px 8px;
+  background-color: #fff;
   /* Change background color as needed */
   z-index: 1000;
   /* Ensure the header is above other content */
@@ -145,7 +146,33 @@ html {
   position: relative;
   padding: 0px 80px 0px 40px;
 }
+.header__logo_placeholder{
 
+  height: 80px;
+  display: flex;
+  align-items: center;
+
+}
+.header__logo_placeholder img{
+  height: 100%;
+}
+.header__logo_placeholder p{
+  display: block;
+  width: 360px;
+  margin-left: 10px;
+
+  font-size: 28px;
+  background: linear-gradient(to right,
+  #00743e,
+  #002e3a);
+/* Define your gradient colors here */
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+/* Example font size */
+font-weight: bold;
+/* Example font weight */
+max-width: 467px;
+}
 .header_navigation {
   margin-right: 24px;
 }
@@ -161,27 +188,51 @@ html {
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: left;
+  position: relative;
+  z-index: 200;
 }
-
+.header_navigation a::before{
+  content: "";
+  position: absolute;
+  width: 100%;
+  height: 10px;
+  background-image: url('../assets/underline.svg');
+  background-size: contain;
+  background-repeat: no-repeat;
+  bottom: -7px;
+  z-index: 100;
+  opacity: 0;
+}
+.header_navigation a:hover::before{
+  opacity: 1;
+}
+.header_navigation a:hover{
+  background: linear-gradient(to right,
+  #00743e,
+  #002e3a);
+/* Define your gradient colors here */
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+}
 .header__nav__language {
   display: flex;
   align-items: center;
 }
-
 .header__language {
   height: 48px;
   width: 77px;
   color: #fff;
   padding: 12px;
   border-radius: 18px;
-  background: rgb(0, 104, 56);
-  background: linear-gradient(90deg,
-      rgba(0, 104, 56, 1) 0%,
-      rgba(0, 58, 72, 1) 100%);
+ 
   display: flex;
   align-items: center;
   justify-content: center;
+  transition: background 1s ease-in; /* Transition duration set to 1 second */
 }
+
+
+
 
 .language__block {
   font-family: "Roboto", sans-serif;
@@ -191,6 +242,75 @@ html {
   letter-spacing: 0.5px;
   text-align: left;
 }
+.dropdown {
+  position: relative;
+  display: inline-block;
+  width: 77px;
+  height: 48px;
+ 
+}
+.dropdown-content {
+  display: none;
+  position: absolute;
+  align-items: center;
+  justify-content: center;
+  background: rgb(0, 104, 56);
+  background: linear-gradient(90deg,rgba(0, 58, 72, 1)  0%,  rgba(0, 104, 56, 1) 100%);
+  width: 100%;
+  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  z-index: 1;
+  border-radius: 0px 0px 18px 18px;
+  bottom: -72%;
+}
+.dropdown-content a {
+  color: black;
+  padding: 12px 16px;
+  text-decoration: none;
+  display: block;
+color: #fff;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+.dropdown:hover .dropdown-content {
+  display: flex;
+}
+.dropdown-button {
+  background: rgb(0, 104, 56);
+  background: linear-gradient(90deg, rgba(0, 104, 56, 1) 0%, rgba(0, 58, 72, 1) 100%);
+  color: white;
+  padding: 12px;
+  border: none;
+  cursor: pointer;
+  border-radius: 18px;
+  width: 100%;
+  height: 100%;
+
+  color: #fff;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+
+display: flex;
+align-items: center;
+justify-content: center;
+}
+.dropdown:hover .dropdown-button {
+  background: rgb(0, 104, 56);
+  background: linear-gradient(90deg,rgba(0, 58, 72, 1)  0%,  rgba(0, 104, 56, 1) 100%);
+}
+
+
+
+
+
+
+
 
 .hero__container {
   min-height: 100vh;
@@ -1009,4 +1129,125 @@ html {
   letter-spacing: 0.5px;
   text-align: left;
   margin-right: 28px;
+}
+/***********POPUP*************/
+
+/* Popup container */
+
+/* Popup container */
+.popup {
+  display: none;
+  position: fixed;
+  z-index: 1000;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgb(0,0,0);
+  background-color: rgba(0,0,0,0.4);
+  justify-content: center;
+  align-items: center;
+}
+
+.popup-content {
+  background-color: #fff;
+  margin: auto;
+  padding: 45px;
+  border: 1px solid #888;
+  width: 1200px;
+  height: 704px;
+  text-align: center;
+  position: relative;
+  border-radius: 10px;
+}
+
+.close-btn {
+  color: #aaa;
+  float: right;
+  font-size: 28px;
+  font-weight: bold;
+  position: absolute;
+  right: 10px;
+  top: 10px;
+  width: 69px;
+  height: 80px;
+}
+.close-btn  img {
+  height: 100%;
+  width: 100%;
+  object-fit: cover;
+}
+.close-btn:hover,
+.close-btn:focus {
+  color: black;
+  text-decoration: none;
+  cursor: pointer;
+}
+
+.popup-image {
+  width: 520px;
+  height: 347px;
+  border-radius: 20px;
+}
+.popup__content__wrapper{
+  margin-top: 0px;
+  display: flex;
+  justify-content: space-between;
+}
+.popup__name__container{
+  height: 62px;
+  position: relative;
+  margin-bottom: 62px;
+}
+.popup__name__container img {
+  z-index: 100;
+  position: absolute;
+  left: 0;
+  bottom: -15px;
+}
+.popup-name{
+  height: 62px;
+  position: absolute;
+  z-index: 200;
+text-align: initial;
+font-size: 56px;
+font-weight: 800;
+line-height: 61.6px;
+background: linear-gradient(to right,
+#006838,
+#002e3a);
+/* Define your gradient colors here */
+-webkit-background-clip: text;
+-webkit-text-fill-color: transparent;
+max-width: 686px;
+
+}
+
+.popup-text{
+  width: 500px;
+  display: block;
+  font-size: 18px;
+  font-weight: 400;
+  line-height: 28.8px;
+  text-align: left;
+  color: var(--dark);
+}
+.popup-link {
+  display: none; /* Initially hide the link */
+  color: #fff;
+  text-decoration: none;
+  margin-top: 15px;
+  display: inline-block;
+  width: 120px;
+  height: 40px;
+font-size: 16px;
+font-weight: 500;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+
+  background: linear-gradient(to right,
+#006838,
+#002e3a);
 }

@@ -1,0 +1,29 @@
+{
+    "1": {
+        "name": "Lorem Ipsum Dolor est met",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec vulputate nisl. Cras tellus urna, consequat imperdiet lorem eu, aliquam vulputate augue. Sed gravida varius lacus, sit amet congue enim viverra nec. Ut pulvinar hendrerit blandit. In hac habitasse platea dictumst. Aliquam posuere mi lectus, et condimentum nulla consequat porta. Duis molestie lacinia dui et convallis.",
+        "image": "./assets/news/1.png",
+        "link": "https://example.com"
+    },
+    "2": {
+        "name": "Another Example",
+        "text": "Detailed information for Another Example.",
+        "image": "./assets/news/2.png"
+    },
+    "3": {
+        "name": "Another Example 3",
+        "text": "Detailed information for Another Example 3.",
+        "image": "./assets/news/3.png",
+        "link": "https://anotherexample.com"
+    },
+    "4": {
+        "name": "Another Example 4",
+        "text": "Detailed information for Another Example 4.",
+        "image": "./assets/news/2.png"
+    },
+    "5": {
+        "name": "Another Example 5",
+        "text": "Detailed information for Another Example 5.",
+        "image": "./assets/news/3.png"
+    }
+}

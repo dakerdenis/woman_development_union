@@ -755,8 +755,13 @@ html {
 /************footer**************/
 .footer {
   margin-top: 50px;
-}
+  z-index: 200;
 
+  position: relative;
+}
+.sheet__container5{
+  top: -80%;
+}
 .footer__container {
   width: 100%;
 }

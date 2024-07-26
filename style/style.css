@@ -1308,3 +1308,54 @@ margin-top: 30px;
     font-size: 40px;
   }
 }
+
+@media only screen and (max-width: 1480px) {
+  .hero__image{
+    transform: scale(0.9  );
+    right: -2%;
+  }
+  .about__text{
+    max-width: 480px;
+  }
+  .about_us{
+    height: 100%;
+    margin-bottom: 40px;
+  }
+}
+
+@media only screen and (max-width: 1370px) {
+  .header {
+      height: 80px;
+  }
+  .header__logo_placeholder{
+    height: 65px;
+  }
+  .hero__image{
+    right: -8%;
+    transform: scale(0.75);
+  }
+  .header__logo_placeholder p{}
+  .header__underline {
+    bottom: -3px;
+    left: 39px;
+  }
+  .popup-content{
+    width: 1100px;
+    height: 600px;
+    padding: 25px;
+  }
+  .popup__name__container{
+    margin-bottom: 20px;
+  }
+  .popup-name{
+    font-size: 35px;
+  }
+  .popup__name__container img{
+    transform: scale(0.7);
+    left: -24px;
+    bottom: -5px;
+  }
+  .popup-text {
+    height: 350px;
+  }
+}

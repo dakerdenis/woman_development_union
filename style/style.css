@@ -123,7 +123,8 @@ html {
 }
 
 /* Example styles for the sections */
-.main__wrapper section {}
+.main__wrapper section {
+}
 
 .header {
   position: fixed;
@@ -146,14 +147,13 @@ html {
   position: relative;
   padding: 0px 80px 0px 40px;
 }
-.header__logo_placeholder{
+.header__logo_placeholder {
   position: relative;
   height: 80px;
   display: flex;
   align-items: center;
-
 }
-.header__underline{
+.header__underline {
   position: absolute;
 
   object-fit: cover;
@@ -162,10 +162,10 @@ html {
   left: 50px;
   z-index: 100;
 }
-.header__logo_img{
+.header__logo_img {
   height: 100%;
 }
-.header__logo_placeholder p{
+.header__logo_placeholder p {
   display: block;
   width: 360px;
   margin-left: 10px;
@@ -173,16 +173,14 @@ html {
   z-index: 200;
 
   font-size: 28px;
-  background: linear-gradient(to right,
-  #00743e,
-  #002e3a);
-/* Define your gradient colors here */
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-/* Example font size */
-font-weight: bold;
-/* Example font weight */
-max-width: 467px;
+  background: linear-gradient(to right, #00743e, #002e3a);
+  /* Define your gradient colors here */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Example font size */
+  font-weight: bold;
+  /* Example font weight */
+  max-width: 467px;
 }
 .header_navigation {
   margin-right: 24px;
@@ -202,28 +200,26 @@ max-width: 467px;
   position: relative;
   z-index: 200;
 }
-.header_navigation a::before{
+.header_navigation a::before {
   content: "";
   position: absolute;
   width: 100%;
   height: 10px;
-  background-image: url('../assets/underline.svg');
+  background-image: url("../assets/underline.svg");
   background-size: contain;
   background-repeat: no-repeat;
   bottom: -7px;
   z-index: 100;
   opacity: 0;
 }
-.header_navigation a:hover::before{
+.header_navigation a:hover::before {
   opacity: 1;
 }
-.header_navigation a:hover{
-  background: linear-gradient(to right,
-  #00743e,
-  #002e3a);
-/* Define your gradient colors here */
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
+.header_navigation a:hover {
+  background: linear-gradient(to right, #00743e, #002e3a);
+  /* Define your gradient colors here */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
 }
 .header__nav__language {
   display: flex;
@@ -235,15 +231,12 @@ max-width: 467px;
   color: #fff;
   padding: 12px;
   border-radius: 18px;
- 
+
   display: flex;
   align-items: center;
   justify-content: center;
   transition: background 1s ease-in; /* Transition duration set to 1 second */
 }
-
-
-
 
 .language__block {
   font-family: "Roboto", sans-serif;
@@ -258,7 +251,6 @@ max-width: 467px;
   display: inline-block;
   width: 77px;
   height: 48px;
- 
 }
 .dropdown-content {
   display: none;
@@ -266,9 +258,13 @@ max-width: 467px;
   align-items: center;
   justify-content: center;
   background: rgb(0, 104, 56);
-  background: linear-gradient(90deg,rgba(0, 58, 72, 1)  0%,  rgba(0, 104, 56, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 58, 72, 1) 0%,
+    rgba(0, 104, 56, 1) 100%
+  );
   width: 100%;
-  box-shadow: 0px 8px 16px 0px rgba(0,0,0,0.2);
+  box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 0px 0px 18px 18px;
   bottom: -72%;
@@ -278,20 +274,23 @@ max-width: 467px;
   padding: 12px 16px;
   text-decoration: none;
   display: block;
-color: #fff;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.5px;
-text-align: left;
-
+  color: #fff;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
 }
 .dropdown:hover .dropdown-content {
   display: flex;
 }
 .dropdown-button {
   background: rgb(0, 104, 56);
-  background: linear-gradient(90deg, rgba(0, 104, 56, 1) 0%, rgba(0, 58, 72, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 104, 56, 1) 0%,
+    rgba(0, 58, 72, 1) 100%
+  );
   color: white;
   padding: 12px;
   border: none;
@@ -301,27 +300,24 @@ text-align: left;
   height: 100%;
 
   color: #fff;
-font-size: 16px;
-font-weight: 500;
-line-height: 24px;
-letter-spacing: 0.5px;
-text-align: left;
+  font-size: 16px;
+  font-weight: 500;
+  line-height: 24px;
+  letter-spacing: 0.5px;
+  text-align: left;
 
-display: flex;
-align-items: center;
-justify-content: center;
+  display: flex;
+  align-items: center;
+  justify-content: center;
 }
 .dropdown:hover .dropdown-button {
   background: rgb(0, 104, 56);
-  background: linear-gradient(90deg,rgba(0, 58, 72, 1)  0%,  rgba(0, 104, 56, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 58, 72, 1) 0%,
+    rgba(0, 104, 56, 1) 100%
+  );
 }
-
-
-
-
-
-
-
 
 .hero__container {
   min-height: 100vh;
@@ -329,7 +325,6 @@ justify-content: center;
   justify-content: space-between;
   padding-top: 60px;
   /* To prevent content from being hidden behind the fixed header */
-
 
   position: relative;
 }
@@ -380,9 +375,11 @@ justify-content: center;
   height: 64px;
   width: 247px;
   background: rgb(0, 104, 56);
-  background: linear-gradient(90deg,
-      rgba(0, 104, 56, 1) 0%,
-      rgba(0, 58, 72, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 104, 56, 1) 0%,
+    rgba(0, 58, 72, 1) 100%
+  );
   border-radius: 8px;
 }
 
@@ -412,18 +409,18 @@ justify-content: center;
   width: 100%;
   position: relative;
 }
-.from_founder{
+.from_founder {
   position: relative;
 }
-.sheet__container{
+.sheet__container {
   position: absolute;
   z-index: 100;
 }
-.sheet__container1{
+.sheet__container1 {
   right: 0;
   top: -160px;
 }
-.sheet__container2{
+.sheet__container2 {
   left: 0;
   top: -150px;
 }
@@ -458,9 +455,7 @@ justify-content: center;
 }
 
 .gradient-text {
-  background: linear-gradient(to right,
-      #006838,
-      #002e3a);
+  background: linear-gradient(to right, #006838, #002e3a);
   /* Define your gradient colors here */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -588,7 +583,7 @@ justify-content: center;
   color: var(--second_blue);
   margin-bottom: 5px;
 }
-.founder__position{ 
+.founder__position {
   color: var(--green);
   margin-bottom: 10px;
   font-weight: 600;
@@ -774,20 +769,17 @@ justify-content: center;
   width: 100%;
   min-height: 300px;
   position: relative;
-
 }
-.sheet__container3{
+.sheet__container3 {
   right: 0;
   top: -100px;
 }
-.connection__container{
+.connection__container {
   position: relative;
   z-index: 200;
 }
 .connections__name {
-  background: linear-gradient(to right,
-      #006838,
-      #002e3a);
+  background: linear-gradient(to right, #006838, #002e3a);
   /* Define your gradient colors here */
   -webkit-background-clip: text;
   -webkit-text-fill-color: transparent;
@@ -811,8 +803,6 @@ justify-content: center;
   margin: 0 auto;
   margin-top: 24px;
   margin-bottom: 55px;
-
-
 }
 
 .connections__wrapper {
@@ -821,13 +811,11 @@ justify-content: center;
   justify-content: space-between;
   width: 1252px;
   margin: 0 auto;
-
 }
 
 .connection__element {
   width: 366px;
   max-height: 700px;
-
 }
 
 .connection__element__image {
@@ -837,7 +825,6 @@ justify-content: center;
 }
 
 .connection__element__image img {
-
   height: 100%;
   object-fit: contain;
 }
@@ -858,7 +845,6 @@ justify-content: center;
   text-align: left;
   color: var(--dark);
 }
-
 
 /********NEWS***********/
 .news {
@@ -896,7 +882,7 @@ justify-content: center;
 
   position: relative;
 }
-.sheet__container5{
+.sheet__container5 {
   top: -80%;
 }
 .footer__container {
@@ -909,7 +895,7 @@ justify-content: center;
   height: 531px;
   display: flex;
   justify-content: space-between;
-  background-image: url('../assets/footer.png');
+  background-image: url("../assets/footer.png");
   background-position: center;
   background-size: cover;
   border-radius: 20px;
@@ -921,7 +907,7 @@ justify-content: center;
   width: 491px;
   height: 464px;
   border-radius: 20px;
-  background-color: #FFFFFF99;
+  background-color: #ffffff99;
   padding: 30px;
 }
 
@@ -933,20 +919,17 @@ justify-content: center;
 }
 
 .footer__contact__name p {
-
   z-index: 200;
 
   font-size: 56px;
   font-weight: 800;
   line-height: 61.6px;
-
 }
 
 .footer__contact__name img {
   position: absolute;
   left: 50px;
   bottom: -18px;
-
 }
 
 .footer__contact__element {
@@ -970,13 +953,14 @@ justify-content: center;
 
 .footer__contact__element:hover .contact__element__image {
   background: rgb(0, 104, 56);
-  background: linear-gradient(90deg,
-      rgba(0, 104, 56, 1) 0%,
-      rgba(0, 58, 72, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 104, 56, 1) 0%,
+    rgba(0, 58, 72, 1) 100%
+  );
 }
 
 .contact__element__name {
-
   font-size: 16px;
   font-weight: 400;
   line-height: 24px;
@@ -995,9 +979,8 @@ justify-content: center;
 .footer__form {
   width: 798px;
   height: 357px;
-  background-color: #FFFFFF99;
+  background-color: #ffffff99;
   border-radius: 20px;
-
 }
 
 .footer__form__content {
@@ -1026,7 +1009,7 @@ justify-content: center;
   height: 40px;
   width: 100%;
   margin-top: 8px;
-  border: 1px solid #7CB040;
+  border: 1px solid #7cb040;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -1037,14 +1020,13 @@ justify-content: center;
   border-bottom: 3px solid var(--second_blue);
   padding: 5px 18px;
   color: var(--dark);
-
 }
 
 .footer__form__textinput {
   height: 148px;
   width: 100%;
   margin-top: 8px;
-  border: 1px solid #7CB040;
+  border: 1px solid #7cb040;
   border-radius: 8px;
   overflow: hidden;
 }
@@ -1069,9 +1051,11 @@ justify-content: center;
   height: 64px;
   width: 350px;
   background: rgb(0, 104, 56);
-  background: linear-gradient(90deg,
-      rgba(0, 104, 56, 1) 0%,
-      rgba(0, 58, 72, 1) 100%);
+  background: linear-gradient(
+    90deg,
+    rgba(0, 104, 56, 1) 0%,
+    rgba(0, 58, 72, 1) 100%
+  );
   border-radius: 8px;
   display: flex;
   align-items: center;
@@ -1085,7 +1069,6 @@ justify-content: center;
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: left;
-
 }
 
 .footer__navigation {
@@ -1094,7 +1077,7 @@ justify-content: center;
   display: flex;
   align-items: center;
   justify-content: space-evenly;
-  background-color: #FFFFFF99;
+  background-color: #ffffff99;
   border-radius: 20px;
   padding: 0px 80px;
 }
@@ -1106,10 +1089,9 @@ justify-content: center;
   line-height: 24px;
   letter-spacing: 0.5px;
   text-align: left;
-
 }
 
-.footer__form__name2{
+.footer__form__name2 {
   margin-top: 10px;
   margin-bottom: 4px;
 }
@@ -1161,8 +1143,8 @@ justify-content: center;
   width: 100%;
   height: 100%;
   overflow: auto;
-  background-color: rgb(0,0,0);
-  background-color: rgba(0,0,0,0.4);
+  background-color: rgb(0, 0, 0);
+  background-color: rgba(0, 0, 0, 0.4);
   justify-content: center;
   align-items: center;
 }
@@ -1190,7 +1172,7 @@ justify-content: center;
   width: 69px;
   height: 80px;
 }
-.close-btn  img {
+.close-btn img {
   height: 100%;
   width: 100%;
   object-fit: cover;
@@ -1207,12 +1189,12 @@ justify-content: center;
   height: 347px;
   border-radius: 20px;
 }
-.popup__content__wrapper{
+.popup__content__wrapper {
   margin-top: 0px;
   display: flex;
   justify-content: space-between;
 }
-.popup__name__container{
+.popup__name__container {
   height: 62px;
   position: relative;
   margin-bottom: 62px;
@@ -1223,25 +1205,22 @@ justify-content: center;
   left: 0;
   bottom: -15px;
 }
-.popup-name{
+.popup-name {
   height: 62px;
   position: absolute;
   z-index: 200;
-text-align: initial;
-font-size: 56px;
-font-weight: 800;
-line-height: 61.6px;
-background: linear-gradient(to right,
-#006838,
-#002e3a);
-/* Define your gradient colors here */
--webkit-background-clip: text;
--webkit-text-fill-color: transparent;
-max-width: 686px;
-
+  text-align: initial;
+  font-size: 56px;
+  font-weight: 800;
+  line-height: 61.6px;
+  background: linear-gradient(to right, #006838, #002e3a);
+  /* Define your gradient colors here */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  max-width: 686px;
 }
 
-.popup-text{
+.popup-text {
   width: 500px;
   height: 390px;
   overflow-y: auto;
@@ -1268,17 +1247,13 @@ max-width: 686px;
   line-height: 24px;
   letter-spacing: 0.5px;
 
-  
-align-items: center;
-justify-content: center;
-border-radius: 10px;
-margin: 0 auto;
-margin-top: 30px;
-  background: linear-gradient(to right,
-#006838,
-#002e3a);
+  align-items: center;
+  justify-content: center;
+  border-radius: 10px;
+  margin: 0 auto;
+  margin-top: 30px;
+  background: linear-gradient(to right, #006838, #002e3a);
 }
-
 
 .no-scroll {
   overflow: hidden;
@@ -1300,36 +1275,36 @@ margin-top: 30px;
 }
 
 @media only screen and (max-width: 1690px) {
-  .hero__image{
+  .hero__image {
     transform: scale(0.9);
     right: 5%;
   }
-  .popup-name{
+  .popup-name {
     font-size: 40px;
   }
   .activities__wrapper,
   .news__wrapper {
     width: calc(3 * 390px + 2 * 20px + 120px);
   }
-  
+
   .swiper {
     width: calc(3 * 390px + 2 * 20px);
   }
-  
+
   .swiper-slide {
     width: 390px !important;
   }
 }
 
 @media only screen and (max-width: 1480px) {
-  .hero__image{
-    transform: scale(0.9  );
+  .hero__image {
+    transform: scale(0.9);
     right: -2%;
   }
-  .about__text{
+  .about__text {
     max-width: 480px;
   }
-  .about_us{
+  .about_us {
     height: 100%;
     margin-bottom: 40px;
   }
@@ -1337,15 +1312,15 @@ margin-top: 30px;
   .news__wrapper {
     width: calc(3 * 370px + 2 * 20px + 120px);
   }
-  
+
   .swiper {
     width: calc(3 * 370px + 2 * 20px);
   }
-  
+
   .swiper-slide {
     width: 370px !important;
   }
-  .slider__image{
+  .slider__image {
     width: 100%;
   }
   .slider__desc__name {
@@ -1355,32 +1330,33 @@ margin-top: 30px;
 
 @media only screen and (max-width: 1370px) {
   .header {
-      height: 80px;
+    height: 80px;
   }
-  .header__logo_placeholder{
+  .header__logo_placeholder {
     height: 65px;
   }
-  .hero__image{
+  .hero__image {
     right: -8%;
     transform: scale(0.75);
   }
-  .header__logo_placeholder p{}
+  .header__logo_placeholder p {
+  }
   .header__underline {
     bottom: -3px;
     left: 39px;
   }
-  .popup-content{
+  .popup-content {
     width: 1100px;
     height: 600px;
     padding: 25px;
   }
-  .popup__name__container{
+  .popup__name__container {
     margin-bottom: 20px;
   }
-  .popup-name{
+  .popup-name {
     font-size: 35px;
   }
-  .popup__name__container img{
+  .popup__name__container img {
     transform: scale(0.7);
     left: -24px;
     bottom: -5px;
@@ -1388,14 +1364,14 @@ margin-top: 30px;
   .popup-text {
     height: 350px;
   }
-  .footer__contact__name p{
+  .footer__contact__name p {
     font-size: 40px;
   }
-  .footer__contact__name img{
+  .footer__contact__name img {
     transform: scale(0.7);
     bottom: -10px;
   }
-  .footer__contact__data{
+  .footer__contact__data {
     padding: 20px;
     width: 423px;
   }
@@ -1403,14 +1379,65 @@ margin-top: 30px;
   .news__wrapper {
     width: calc(3 * 350px + 2 * 15px + 120px);
   }
-  
+
   .swiper {
     width: calc(3 * 350px + 2 * 15px);
   }
-  
+
   .swiper-slide {
     width: 350px !important;
   }
+}
+@media only screen and (max-width: 770px) {
+  .header_navigation {
+    display: none;
+    visibility: hidden;
+  }
+  .dropdown {
+    display: none;
+    visibility: hidden;
+  }
 
-  
+  /***! ************/
+  /***! ************/
+  /***! ************/
+
+  .activities__wrapper {
+    display: none;
+    visibility: hidden;
+  }
+  .news {
+    display: none;
+    visibility: hidden;
+  }
+  .footer{
+    display: none;
+    visibility: hidden;
+  }
+  /***! ************/
+  /***! ************/
+  /***! ************/
+  /***! ************/
+  /***! ************/
+  /***! ************/
+  .connections__wrapper{
+    flex-direction: column;
+    width: 100%;
+
+  }
+  .about__wrapper{
+    flex-direction: column;
+  }
+  .about__images{
+    width: 100%;
+  }
+  .hero__image{
+    transform: initial;
+    right: initial;
+    left: initial;
+    max-width: 380px;
+  }
+  .hero__image img{
+    width: 100%;
+  }
 }

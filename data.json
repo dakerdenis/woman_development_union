@@ -32,19 +32,15 @@
         "image": "./assets/news/1.png",
         "link": "https://example.com"
     },
-
-
     "7": {
-        "name": "Another Example 7",
-        "text": "Şamaxıda çıxış edən danışıqçılar səviyyəsində görüşlər COP29-un sədr müavini ilə əlaqəni aktivləşdirmək və iqlim dəyişikliyi ilə bağlı fəaliyyəti sürətləndirmək öhdəliyinə sadiqliyini təmin edir. Nümayəndə heyətinin başçıları, o cümlədən bütün danışıq qruplarının sədrləri, iqlim dəyişikliyi ilə münaqişədə irəliləyiş əldə edilməsinə təkan vermək üçün bu həftə sonu 26-27 Iyul 2024 tarixində Şamaxıda bir araya gəliblər. Bu tədbir COP29 sədrliyinin qarşılıqlı əlaqəni aktivləşdirmək və iqlim dəyişikliyi ilə bağlı fəaliyyəti  sürətləndirmək öhdəliyinə sadiqliyini əks etdirir.
-Qeyd edək ki, BMT-nin İqlim Dəyişikliyi üzrə Çərçivə Konvensiyasının Tərəflər Konfransının 29-cu sessiyası (COP29) bu ilin noyabrında Bakıda müzakirə. Bu qərar 2023-cü il dekabrın 11-də Dubayda COP28 plenar iclasında qəbul edilib.
-",
-        "image": "./assets/news/2.png"
+        "name": "BMT-nin İqlim Dəyişikliyi üzrə Çərçivə Konvensiyası",
+        "text": "Şamaxıda çıxış edən danışıqçılar səviyyəsində görüşlər COP29-un sədr müavini ilə əlaqəni aktivləşdirmək və iqlim dəyişikliyi ilə bağlı fəaliyyəti sürətləndirmək öhdəliyinə sadiqliyini təmin edir. Nümayəndə heyətinin başçıları, o cümlədən bütün danışıq qruplarının sədrləri, iqlim dəyişikliyi ilə münaqişədə irəliləyiş əldə edilməsinə təkan vermək üçün bu həftə sonu 26-27 Iyul 2024 tarixində Şamaxıda bir araya gəliblər. Bu tədbir COP29 sədrliyinin qarşılıqlı əlaqəni aktivləşdirmək və iqlim dəyişikliyi ilə bağlı fəaliyyəti sürətləndirmək öhdəliyinə sadiqliyini əks etdirir. Qeyd edək ki, BMT-nin İqlim Dəyişikliyi üzrə Çərçivə Konvensiyasının Tərəflər Konfransının 29-cu sessiyası (COP29) bu ilin noyabrında Bakıda müzakirə. Bu qərar 2023-cü il dekabrın 11-də Dubayda COP28 plenar iclasında qəbul edilib.",
+        "image": "./assets/news/7.jpg"
     },
     "8": {
         "name": "Another Example 8",
-        "text": "Detailed information for Another Example 8.",
-        "image": "./assets/news/3.png",
+        "text": "Ağaclar iqlim sürprizini ortaya qoyur: Qabıqda yaşayan mikroblar atmosferdən metanı çıxarır. İyulun 24-də Nature jurnalında dərc olunan araşdırmaya görə, ağac qabığı səthləri atmosferdən metan qazının çıxarılmasında mühüm rol oynayır. Ağacların atmosferdən karbon qazını çıxararaq iqlimə faydası çoxdan bilinsə də, bu yeni araşdırma təəccüblü əlavə iqlim faydasını ortaya qoyur. Ağac qabığının içərisində gizlənən mikroblar atmosferdən güclü istixana qazı olan metanı udur. Birmingem Universitetinin rəhbərlik etdiyi beynəlxalq tədqiqatçılar qrupu ilk dəfə qabıqda və ya ağacın özündə yaşayan mikrobların atmosfer metanını torpaqdan bərabər və ya daha yüksək miqyasda çıxardığını göstərdi. Onlar hesablayırlar ki, bu yeni kəşf edilmiş proses ağacları ümumilikdə iqlim üçün əvvəllər düşünüldüyündən 10% daha faydalı edir. 2021-ci ildə COP26 iqlim dəyişikliyi sammitində başlanan Qlobal Metan Pledge on ilin sonuna qədər metan emissiyalarını 30% azaltmağı hədəfləyir. Nəticələrimiz göstərir ki, daha çox ağac əkmək və meşələrin qırılmasının azaldılması, şübhəsiz ki, bu məqsədə doğru hər hansı yanaşmanın mühüm hissələri olmalıdır.",
+        "image": "./assets/news/8.jpg",
         "link": "https://anotherexample.com"
     },
     "9": {

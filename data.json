@@ -32,9 +32,13 @@
         "image": "./assets/news/1.png",
         "link": "https://example.com"
     },
+
+
     "7": {
         "name": "Another Example 7",
-        "text": "Detailed information for Another Example 7.",
+        "text": "Şamaxıda çıxış edən danışıqçılar səviyyəsində görüşlər COP29-un sədr müavini ilə əlaqəni aktivləşdirmək və iqlim dəyişikliyi ilə bağlı fəaliyyəti sürətləndirmək öhdəliyinə sadiqliyini təmin edir. Nümayəndə heyətinin başçıları, o cümlədən bütün danışıq qruplarının sədrləri, iqlim dəyişikliyi ilə münaqişədə irəliləyiş əldə edilməsinə təkan vermək üçün bu həftə sonu 26-27 Iyul 2024 tarixində Şamaxıda bir araya gəliblər. Bu tədbir COP29 sədrliyinin qarşılıqlı əlaqəni aktivləşdirmək və iqlim dəyişikliyi ilə bağlı fəaliyyəti  sürətləndirmək öhdəliyinə sadiqliyini əks etdirir.
+Qeyd edək ki, BMT-nin İqlim Dəyişikliyi üzrə Çərçivə Konvensiyasının Tərəflər Konfransının 29-cu sessiyası (COP29) bu ilin noyabrında Bakıda müzakirə. Bu qərar 2023-cü il dekabrın 11-də Dubayda COP28 plenar iclasında qəbul edilib.
+",
         "image": "./assets/news/2.png"
     },
     "8": {

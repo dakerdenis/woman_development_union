@@ -841,7 +841,6 @@ html {
 
 .connection__element {
   width: 366px;
-  max-height: 700px;
 }
 
 .connection__element__image {
@@ -862,6 +861,15 @@ html {
   line-height: 26.4px;
   text-align: left;
   margin-bottom: 16px;
+}
+.connection__link{
+  margin-bottom: 20px;
+}
+.connection__link a{
+  color: var(--green);
+  font-size: 20px;
+
+  font-weight: 500;
 }
 
 .connection__text {

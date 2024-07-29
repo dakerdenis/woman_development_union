@@ -1490,8 +1490,7 @@ html {
   }
 
   .footer {
-    display: none;
-    visibility: hidden;
+
   }
 
   /***! ************/
@@ -1757,5 +1756,56 @@ html {
   }
   .header__logo_placeholder p {
     font-size: 16px;
+  }
+
+  .footer__contact__data{
+    width: 90%;
+  }
+
+  
+.footer__contact__form{
+  width: 90%;
+}
+  .footer__contact__block{
+    height: initial;
+    width: 90%;
+    margin: 0  auto;
+    padding: 25px 15px 20px 15px;
+    flex-direction: column;
+    align-items: center;
+  }
+  .footer__form{
+    width: 100%;
+    height: initial;
+  margin-top: 20px;
+  padding-bottom: 20px;
+  }
+  .footer__form__content{
+    width: 90%;
+    flex-direction: column;
+  }
+  .footer__form__block{
+    width: 100%;
+    margin-bottom: 15px;
+  }
+  .footer__form__button{
+    margin-top: 5px;
+  }
+  .footer__navigation {
+    width: 100%;
+    display: none;
+    visibility: hidden;
+  }
+  .footer__rights__created{
+    flex-direction: column;
+  }
+  .footer__created{
+    margin-top: 10px;
+  }
+  .footer__form__button button {
+    width: 80%;
+  }
+  .footer__form__button p{
+    font-size: 20px;
   }
 }

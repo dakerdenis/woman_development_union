@@ -59,3 +59,16 @@ async function fetchData(id) {
         return null;
     }
 }
+
+
+document.addEventListener('DOMContentLoaded', () => {
+    const mobileBurger = document.getElementById('mobileBurger');
+    const mobileNav = document.getElementById('mobileNav');
+    
+    mobileBurger.addEventListener('click', () => {
+      mobileBurger.classList.toggle('open');
+      mobileNav.classList.toggle('open');
+      document.body.classList.toggle('no-scroll');
+    });
+  });
+  

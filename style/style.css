@@ -1337,6 +1337,66 @@ html {
   visibility: hidden;
 }
 
+
+
+
+
+
+
+
+
+
+
+.popup__social__container{
+  height: 40px;
+  display: flex;
+  align-items: center;  
+  justify-content: flex-start;
+}
+.popup__social__text{
+  font-size: 18px;
+  color: var(--dark);
+  margin-right: 10px;
+}
+.popup-social {
+  display: flex;
+  justify-content: center;
+
+
+}
+
+.popup-social a {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  width: 32px;
+  height: 32px;
+  margin-right: 5px;
+  background-position: center;
+  background-size: 80%;
+  background-repeat: no-repeat;
+  background-color: var(--light_green);
+  border-radius: 5px;
+
+}
+
+.popup-social .facebook {
+  background-image: url('../assets/social/facebook.svg');
+}
+
+.popup-social .twitter {
+  background-image: url('../assets/social/twitter.svg');
+}
+
+.popup-social .linkedin {
+  background-image: url('../assets/social/linkedin.svg');
+}
+
+.popup-social .whatsapp {
+  background-image: url('../assets/social/whatsapp.svg');
+}
+
+
 @media only screen and (max-width: 1690px) {
   .hero__image {
     transform: scale(0.9);

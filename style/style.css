@@ -1997,4 +1997,61 @@ html {
   .no-scroll {
     overflow: hidden;
   }
+
+}
+@media only screen and (max-width: 450px) {
+  .hero__name p{
+    font-size: 35px;
+  }
+  .hero__desc_text{
+    margin-top: 10px;
+  }
+  
+
+  .about__container{
+    padding: 0 20px;
+  }
+  .about__name__block-founder .about__name{
+    right: initial;
+  }
+  .about__name__block img {
+    left: -27px;
+  }
+  .about__container-mobile{
+    width: 100%;
+  }
+
+  .from_founder .about__name__block img{
+    left:  -41px;
+  }
+  .connections__desc{
+    margin-bottom: 0px;
+  }
+  .connection__element {
+    margin-top: 38px;
+  }
+
+  .footer__contact__block{
+    width: 96%;
+    padding-top: 15px;
+  }
+  .footer__contact__data {
+    width: 100%;
+    padding: 14px;
+    height: 405px;
+  }
+  .contact__element__name {
+    font-size: 14px;
+  }
+  .footer__contact__name{
+    margin-bottom: 25px;
+  }
+  .footer__contact__name img {
+    bottom: -7px;
+    left: 20px;
+    
+  }
+  .footer__contact__form {
+    width: 100%;
+  }
 }

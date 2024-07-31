@@ -343,18 +343,18 @@ html {
   position: absolute;
   left: 10%;
   height: 320px;
-  width: 473px;
+  width: 574px;
   top: calc(50% - 160px);
   color: var(--dark);
 }
 
 .hero__name {
   color: #0f172a;
-  font-size: 72px;
+  font-size: 60px;
   font-weight: 800;
   line-height: 79.2px;
   text-align: left;
-  height: 158px;
+  height: 233px;
 
   position: relative;
 }
@@ -368,7 +368,7 @@ html {
   z-index: 200;
   position: absolute;
   top: 60px;
-  left: 13px;
+  left: -3px;
 }
 
 .hero__desc_text {

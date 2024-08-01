@@ -1429,6 +1429,42 @@ html {
   background-image: url('../assets/social/telegram.svg');
 }
 
+.additional__links{
+  width: 70.5%;
+  margin: 0 auto;
+  margin-top: 40px;
+}
+.additional__links__name{
+  height: 120px;
+  position: relative;
+
+}
+
+.additional__links__name p{
+
+}
+
+.additional__links__wrapper{
+
+}
+
+.additional_link__element{
+  display: block;
+
+  height: 30px;
+  margin-bottom: 30px;
+}
+.additional_link__element-name{
+  color: var(--green);
+  font-size: 20px;
+  font-weight: 500;
+  margin-bottom: 7px;
+}
+.additional_link__element p{
+  color: var(--second_blue);
+  opacity: 0.8;
+}
+
 
 @media only screen and (max-width: 1690px) {
   .hero__image {

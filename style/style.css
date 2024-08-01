@@ -185,6 +185,7 @@ html {
   /* Example font weight */
   max-width: 467px;
 }
+
 .header__logo_placeholder span {
   color: #000;
   position: absolute;
@@ -192,11 +193,11 @@ html {
   bottom: 0;
   font-size: 22px;
   background: linear-gradient(to right, #00743e, #002e3a);
-    /* Define your gradient colors here */
-    -webkit-background-clip: text;
-    -webkit-text-fill-color: transparent;
-    /* Example font size */
-    font-weight: bold;
+  /* Define your gradient colors here */
+  -webkit-background-clip: text;
+  -webkit-text-fill-color: transparent;
+  /* Example font size */
+  font-weight: bold;
 }
 
 
@@ -625,12 +626,14 @@ html {
   font-weight: 600;
   font-size: 17px;
 }
-.founder__desc{
+
+.founder__desc {
   font-size: 19px;
   color: var(--green);
   margin-bottom: 10px;
   font-weight: 600;
 }
+
 .about__name__block-founder {
   text-align: right;
 
@@ -863,9 +866,11 @@ html {
   width: 1252px;
   margin: 0 auto;
 }
-.connections__wrapper2 .connection__element{
-width: 40%;
+
+.connections__wrapper2 .connection__element {
+  width: 40%;
 }
+
 .connection__element {
   width: 366px;
 }
@@ -1369,17 +1374,19 @@ width: 40%;
 
 
 
-.popup__social__container{
+.popup__social__container {
   height: 40px;
   display: flex;
-  align-items: center;  
+  align-items: center;
   justify-content: flex-start;
 }
-.popup__social__text{
+
+.popup__social__text {
   font-size: 18px;
   color: var(--dark);
   margin-right: 10px;
 }
+
 .popup-social {
   display: flex;
   justify-content: center;
@@ -1417,6 +1424,7 @@ width: 40%;
 .popup-social .whatsapp {
   background-image: url('../assets/social/whatsapp.svg');
 }
+
 .popup-social .telegram {
   background-image: url('../assets/social/telegram.svg');
 }
@@ -2006,9 +2014,7 @@ width: 40%;
     width: initial;
   }
 
-  .header__nav__language {
-
-  }
+  .header__nav__language {}
 
   .mobile__burger {
     visibility: visible;
@@ -2024,9 +2030,7 @@ width: 40%;
     z-index: 1001;
   }
 
-  .burger-icon {
-
-  }
+  .burger-icon {}
 
   .burger-icon div {
     background-color: #fff;
@@ -2084,59 +2088,124 @@ width: 40%;
   }
 
 }
+
 @media only screen and (max-width: 450px) {
-  .hero__name p{
+  .hero__name p {
     font-size: 35px;
   }
-  .hero__desc_text{
+
+  .hero__desc_text {
     margin-top: 10px;
   }
-  
 
-  .about__container{
+
+  .about__container {
     padding: 0 20px;
   }
-  .about__name__block-founder .about__name{
+
+  .about__name__block-founder .about__name {
     right: initial;
   }
+
   .about__name__block img {
     left: -27px;
   }
-  .about__container-mobile{
+
+  .about__container-mobile {
     width: 100%;
   }
 
-  .from_founder .about__name__block img{
-    left:  -41px;
+  .from_founder .about__name__block img {
+    left: -41px;
   }
-  .connections__desc{
+
+  .connections__desc {
     margin-bottom: 0px;
   }
+
   .connection__element {
     margin-top: 38px;
   }
 
-  .footer__contact__block{
+  .footer__contact__block {
     width: 96%;
     padding-top: 15px;
   }
+
   .footer__contact__data {
     width: 100%;
     padding: 14px;
     height: 405px;
   }
+
   .contact__element__name {
     font-size: 14px;
   }
-  .footer__contact__name{
+
+  .footer__contact__name {
     margin-bottom: 25px;
   }
+
   .footer__contact__name img {
     bottom: -7px;
     left: 20px;
-    
+
   }
+
   .footer__contact__form {
     width: 100%;
+  }
+
+  .header__logo_placeholder span {
+    font-size: 12px;
+    display: block;
+    width: 100px;
+    left: 143px;
+    bottom: 8px;
+  }
+
+  .hero__name {
+    height: 132px;
+  }
+
+  .hero__name p {
+    font-size: 33px;
+    line-height: 45.8px;
+
+  }
+
+  .hero__name img {
+    position: absolute;
+    transform: scale(0.50);
+    top: 26px;
+    left: -42px;
+  }
+  .about__name__block img {
+    transform: scale(0.6);
+  }
+  .connection__element__image img{
+    width: 100%;
+  }
+  .connections__wrapper2 .connection__element{
+    width: 90%;
+  }
+  .slider__desc__desc{
+    margin-top: 8px;
+    font-size: 11px;
+  }.slider__desc__name{
+    font-size: 20px;
+    line-height: 22px;
+  }
+  .slider__desc__button button {
+    height: 30px;
+    margin-top: 10px;
+  }    .popup__name__container h2 {
+    line-height: 26px;
+  }
+  .popup__name__container{
+    margin-bottom: 0px;
+  }
+  .popup-content{
+    height: initial;
   }
 }

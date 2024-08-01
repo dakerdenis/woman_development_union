@@ -39,8 +39,10 @@ document.addEventListener('DOMContentLoaded', () => {
           <a href="https://twitter.com/intent/tweet?url=${encodeURIComponent(url)}" target="_blank" class="twitter"></a>
           <a href="https://www.linkedin.com/shareArticle?mini=true&url=${encodeURIComponent(url)}" target="_blank" class="linkedin"></a>
           <a href="https://api.whatsapp.com/send?text=${encodeURIComponent(url)}" target="_blank" class="whatsapp"></a>
+          <a href="https://t.me/share/url?url=${encodeURIComponent(url)}" target="_blank" class="telegram"></a>
         `;
     }
+    
 
     document.querySelectorAll('.popup-btn').forEach(button => {
         button.addEventListener('click', async (event) => {

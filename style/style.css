@@ -185,6 +185,20 @@ html {
   /* Example font weight */
   max-width: 467px;
 }
+.header__logo_placeholder span {
+  color: #000;
+  position: absolute;
+  left: 200px;
+  bottom: 0;
+  font-size: 22px;
+  background: linear-gradient(to right, #00743e, #002e3a);
+    /* Define your gradient colors here */
+    -webkit-background-clip: text;
+    -webkit-text-fill-color: transparent;
+    /* Example font size */
+    font-weight: bold;
+}
+
 
 .header_navigation {
   margin-right: 24px;
@@ -609,9 +623,14 @@ html {
   color: var(--green);
   margin-bottom: 10px;
   font-weight: 600;
-  font-size: 18px;
+  font-size: 17px;
 }
-
+.founder__desc{
+  font-size: 19px;
+  color: var(--green);
+  margin-bottom: 10px;
+  font-weight: 600;
+}
 .about__name__block-founder {
   text-align: right;
 
@@ -738,6 +757,7 @@ html {
   width: 410px;
   height: 220px;
   overflow: hidden;
+  border-radius: 20px;
 }
 
 .slider__image img {
@@ -1299,7 +1319,7 @@ html {
   justify-content: center;
   border-radius: 10px;
   margin: 0 auto;
-  margin-top: 30px;
+  margin-top: 16px;
   background: linear-gradient(to right, #006838, #002e3a);
 }
 
@@ -1371,7 +1391,7 @@ html {
   justify-content: center;
   width: 32px;
   height: 32px;
-  margin-right: 5px;
+  margin-right: 10px;
   background-position: center;
   background-size: 80%;
   background-repeat: no-repeat;
@@ -1394,6 +1414,9 @@ html {
 
 .popup-social .whatsapp {
   background-image: url('../assets/social/whatsapp.svg');
+}
+.popup-social .telegram {
+  background-image: url('../assets/social/telegram.svg');
 }
 
 

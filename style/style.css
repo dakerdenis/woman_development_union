@@ -1451,7 +1451,7 @@ html {
 .additional_link__element{
   display: block;
 
-  height: 30px;
+
   margin-bottom: 30px;
 }
 .additional_link__element-name{
@@ -2243,5 +2243,8 @@ html {
   }
   .popup-content{
     height: initial;
+  }
+  .additional__links{
+    width: 90%;
   }
 }

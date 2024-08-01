@@ -776,12 +776,12 @@ html {
   font-weight: 500;
   line-height: 17.6px;
   text-align: left;
-
+  min-height: 17px;
   color: var(--second_blue);
 }
 
 .slider__desc__name {
-  font-size: 40px;
+  font-size: 26px;
   font-weight: 700;
   line-height: 44px;
   text-align: left;
@@ -863,7 +863,9 @@ html {
   width: 1252px;
   margin: 0 auto;
 }
-
+.connections__wrapper2 .connection__element{
+width: 40%;
+}
 .connection__element {
   width: 366px;
 }

@@ -655,14 +655,40 @@ html {
 
 .activities {
   width: 100%;
-  height: 520px;
+
   margin-top: 80px;
 }
 
 .activities__wrapper {
   width: 100%;
-  height: 374px;
+  color: #000;
+  display: flex;
+  justify-content: space-between;
 }
+.activities__container__list{
+  width: 48%;
+}
+.activities__container__list p {
+  color: #0f172a;
+  font-size: 18px;
+  margin-bottom: 8px;
+  font-weight: 500;
+}
+.activities__container__list span{
+  color: var(--green);
+}
+.activities__container__photo{
+  width: 40%;
+  height: 350px;
+  overflow: hidden;
+}
+.activities__container__photo img{
+  width: 100%;
+  height: 100%;
+  overflow: hidden;
+}
+
+
 
 .activities__name_block {
   width: 80%;
@@ -1429,38 +1455,37 @@ html {
   background-image: url('../assets/social/telegram.svg');
 }
 
-.additional__links{
+.additional__links {
   width: 70.5%;
   margin: 0 auto;
   margin-top: 40px;
 }
-.additional__links__name{
+
+.additional__links__name {
   height: 120px;
   position: relative;
 
 }
 
-.additional__links__name p{
+.additional__links__name p {}
 
-}
+.additional__links__wrapper {}
 
-.additional__links__wrapper{
-
-}
-
-.additional_link__element{
+.additional_link__element {
   display: block;
 
 
   margin-bottom: 30px;
 }
-.additional_link__element-name{
+
+.additional_link__element-name {
   color: var(--green);
   font-size: 20px;
   font-weight: 500;
   margin-bottom: 7px;
 }
-.additional_link__element p{
+
+.additional_link__element p {
   color: var(--second_blue);
   opacity: 0.8;
 }
@@ -2216,35 +2241,47 @@ html {
     top: 26px;
     left: -42px;
   }
+
   .about__name__block img {
     transform: scale(0.6);
   }
-  .connection__element__image img{
+
+  .connection__element__image img {
     width: 100%;
   }
-  .connections__wrapper2 .connection__element{
+
+  .connections__wrapper2 .connection__element {
     width: 90%;
   }
-  .slider__desc__desc{
+
+  .slider__desc__desc {
     margin-top: 8px;
     font-size: 11px;
-  }.slider__desc__name{
+  }
+
+  .slider__desc__name {
     font-size: 20px;
     line-height: 22px;
   }
+
   .slider__desc__button button {
     height: 30px;
     margin-top: 10px;
-  }    .popup__name__container h2 {
+  }
+
+  .popup__name__container h2 {
     line-height: 26px;
   }
-  .popup__name__container{
+
+  .popup__name__container {
     margin-bottom: 0px;
   }
-  .popup-content{
+
+  .popup-content {
     height: initial;
   }
-  .additional__links{
+
+  .additional__links {
     width: 90%;
   }
 }

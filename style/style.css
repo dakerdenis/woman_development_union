@@ -426,7 +426,17 @@ html {
   top: calc(50% - 259px);
   transform: scale(1.2);
 }
-
+.hero__image img{
+  display: none;
+  visibility: hidden;
+}
+.hero__image video{
+  width: 712px;
+  height: 400px;
+  border-radius: 20px;
+  position: absolute;
+  left: -700px;
+}
 .about_us {
   height: 540px;
   width: 100%;
@@ -2147,7 +2157,26 @@ html {
   .no-scroll {
     overflow: hidden;
   }
-
+  .hero__image video{
+    display: none;
+    visibility: hidden;
+  }
+  .hero__image  img{
+    display: initial;
+    visibility: visible;
+  }
+  .activities__wrapper{
+    width: 90%;
+    margin: 0 auto;
+    flex-direction: column;
+  }
+  .activities__container__list{
+    width: 100%;
+  }
+  .activities__container__photo{
+    margin-top: 20px;
+    width: 100%;
+  }
 }
 
 @media only screen and (max-width: 450px) {

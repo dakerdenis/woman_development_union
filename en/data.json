@@ -1,0 +1,54 @@
+{
+    "1": {
+        "name": "Lorem Ipsum Dolor est met",
+        "text": "Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec vulputate nisl. Cras tellus urna, consequat imperdiet lorem eu, aliquam vulputate augue. Sed gravida varius lacus, sit amet congue enim viverra nec. Ut pulvinar hendrerit blandit. In hac habitasse platea dictumst. Aliquam posuere mi lectus, et condimentum nulla consequat porta. Duis molestie lacinia dui et convallis. Aenean volutpat facilisis felis id luctus. Vestibulum fringilla non diam at tincidunt. Proin efficitur at metus venenatis suscipit. Sed eros orci, luctus sed ultrices non, sodales sed odio. Maecenas semper tincidunt volutpat. Lorem ipsum dolor sit amet, consectetur adipiscing elit. Fusce nec vulputate nisl. Cras tellus urna, consequat imperdiet lorem eu, aliquam vulputate augue. Sed gravida varius lacus, sit amet congue enim viverra nec. Ut pulvinar hendrerit blandit. In hac habitasse platea dictumst. Aliquam posuere mi lectus, et condimentum nulla consequat porta. Duis molestie lacinia dui et convallis. Aenean volutpat facilisis felis id luctus. Vestibulum fringilla non diam at tincidunt. Proin efficitur at metus venenatis suscipit. Sed eros orci, luctus sed ultrices non, sodales sed odio. Maecenas semper tincidunt volutpat.",
+        "image": "../assets/news/1.png",
+        "link": "https://example.com"
+    },
+    "2": {
+        "name": "Another Example 2",
+        "text": "Detailed information for Another Example 2.",
+        "image": "../assets/news/2.png"
+    },
+    "3": {
+        "name": "Another Example 3",
+        "text": "Detailed information for Another Example 3.",
+        "image": "../assets/news/3.png",
+        "link": "https://anotherexample.com"
+    },
+    "4": {
+        "name": "Another Example 4",
+        "text": "Detailed information for Another Example 4.",
+        "image": "../assets/news/2.png"
+    },
+    "5": {
+        "name": "Another Example 5",
+        "text": "Detailed information for Another Example 5.",
+        "image": "../assets/news/3.png"
+    },
+    "6": {
+        "name": "Another Example 6",
+        "text": "Detailed information for Another Example 6.",
+        "image": "../assets/news/1.png",
+        "link": "https://example.com"
+    },
+    "7": {
+        "name": "Floating solar power plant.",
+        "text": "A pilot solar power plant on the Buyukshor Lake has been put into operation in Baku. The opening ceremony of a solar power plant with a total capacity of 100 kW was held on Lake Buyukshor within the framework of the Knowledge exchange and technical assistance on the development of floating solar panels system project implemented by the Ministry of Energy and the Asian Development Bank (ADB). Speaking at the event, Javid Abdullayev, Director of the State Agency for Renewable Energy Sources, spoke about our country's contributions to global efforts in the fight against climate change and reducing carbon emissions. President Ilham Aliyev drew attention to the mega projects implemented in accordance with the state policy that prioritizes the development of the use of renewable energy, and said that with the commissioning of the Garadag Solar Power Station, the production of solar energy increased more than 8 times in 6 months: 95 kW of the project is installed in water, 5 kW of it is installed on land. annual production of more than 160,000 kWh of electricity is predicted through The project serves as a call for attracting private investments, and discussions on its expansion have already started ","image": "../assets/news/7.jpg"
+    },
+    "8": {
+        "name": "Meeting COP29 Shamakhi",
+        "text": "Meetings at the level of negotiators in Shamakhi ensure the commitment of the COP29 Vice-Chair to activate communication and accelerate action on climate change. Heads of delegation, including the chairs of all negotiating groups, are meeting in Shamakhi this weekend, July 26-27, 2024, to push for progress on the climate change conflict. This event reflects the commitment of the COP29 presidency to activate communication and accelerate action on climate change. Note that the 29th session of the Conference of the Parties to the UN Framework Convention on Climate Change (COP29) will be held in Baku in November this year. This decision was adopted at the COP28 plenary meeting in Dubai on December 11, 2023. ",
+        "image": "../assets/news/8.jpg"
+    },
+    "9": {
+        "name": "The significance of trees",
+        "text": "Trees reveal climate surprise: Microbes living in bark remove methane from the atmosphere. Tree bark surfaces play an important role in removing methane gas from the atmosphere, according to a study published 24 July in Nature. While trees have long been known to benefit the climate by removing carbon dioxide from the atmosphere, this new research reveals a surprising additional climate benefit. Microbes hidden within tree bark can absorb methane—a powerful greenhouse gas—from the atmosphere. An international team of researchers led by the University of Birmingham has shown for the first time that microbes living in bark or in the wood itself are removing atmospheric methane on a scale equal to or above that of soil. They calculate that this newly discovered process makes trees 10% more beneficial for climate overall than previously thought.The Global Methane Pledge, launched in 2021 at the COP26 climate change summit aims to cut methane emissions by 30% by the end of the decade. Our results suggest that planting more trees and reducing deforestation surely must be important parts of any approach towards this goal.",
+        "image": "../assets/news/9.jpg"
+    },
+    "10": {
+        "name": "The second meeting of the NGO Coalition",
+        "text": "On July 29, the second hybrid meeting of the 'COP29 NGO Coalition' was held through 'Zoom'. At the meeting, foreign and local civil society representatives held extensive discussions on the topic of inclusion. At the invitation of the Azerbaijan National NGO Forum, Nigar Arpadarai, the high-level champion of UN Climate Change at COP29, and Leyla Hasanova, the Young Climate Champion of COP29, attended the meeting as guests, and they answered questions. Currently, 123 foreign NGOs from 39 countries are represented in the 'COP29 NGO Coalition'. Azerbaijani NGOs are represented in the Coalition by the Azerbaijan National NGO Forum, which is a national umbrella organization. Chairman of the Board of the Forum, Ramil Iskanderli, said that the second meeting of the NGO Coalition was held recently, and foreign NGOs from Norway, Spain, Romania, Sri Lanka and other countries joined the Coalition.",
+        "image": "../assets/news/10.jpg"
+    }
+}

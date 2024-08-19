@@ -2403,6 +2403,7 @@ box-shadow: 0px 20px 25px -5px #0000001A;
   }
   .additional__links__name p {
     text-align: right;
+    font-size: 35px;
   }
   .additional__links__name {
     height: 80px;
@@ -2421,6 +2422,7 @@ box-shadow: 0px 20px 25px -5px #0000001A;
     }
     .activities__name_block p{
       text-align: right;
+      font-size: 33px;
     }
     
     .activities__name_block img {
@@ -2596,4 +2598,57 @@ text-align: right;
     .footer__container{
       position: relative;
     }
+    .header__underline {
+      bottom: 18px;
+      left: 10px;
+    }
+    .about__name__block-founder .about__name {
+      font-size: 30px;
+    }
+    .from_founder .about__name__block img {
+      left: 7px;
+      transform: scale(0.5);
+      bottom: 0px;
+    }
+    .foundr__mobile__name {
+        font-size: 24px;
+        line-height: 33.2px;
+    }
+    .connections__wrapper{
+      width: 95%;
+    }
+    .connection__element__image img{
+      width: initial;
+
+      height: initial;
+    }
+    .popup__social__text{
+      display: none;
+      visibility: hidden;
+    }
+    .popup__social__container{
+       margin-top: 10px;
+    }
+    .popup-text{
+        max-height: 240px;
+        margin-top: 19px;
+        font-size: 14px;
+        line-height: 22.8px;
+      }
+      .footer__created p {
+        font-size: 14px;
+      }
+      .footer__rights__created{
+        padding: 0 10px;
+      }
+      .from_founder .about__name__block img {
+        left: -14px;
+      }
+      @media only screen and (max-width: 450px) {
+
+        .footer__contact__data {
+          right: -55px;
+        }
+        
+      }
 }

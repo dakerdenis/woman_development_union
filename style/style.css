@@ -464,8 +464,7 @@ width: 100%;
 .sheet__container2 {
   left: -47px;
   top: -206px;
-  width: 305.25px;
-  height: 387.09px;
+
   transform: rotate(-3deg);
 }
 
@@ -1555,7 +1554,7 @@ width: 100%;
   }
 
   .about__text {
-    max-width: 480px;
+    max-width: 600px;
   }
 
   .about_us {
@@ -1657,6 +1656,21 @@ width: 100%;
 
   .swiper-slide {
     width: 350px !important;
+  }
+
+  .header__logo_placeholder p{
+    font-size: 20px;
+  }
+  .header__underline{
+    transform: scale(0.5);
+    bottom: 10px;
+    left: 24px;
+  }
+  .header__logo_placeholder span {
+    font-size: 15px;
+    left: 145px;
+    bottom: 8px;
+
   }
 }
 

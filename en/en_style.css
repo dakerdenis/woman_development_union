@@ -1,0 +1,16 @@
+.about__name__block-founder img{
+    right: 0;
+}
+
+.activities__name_block{
+    position: relative;
+}
+.activities__name_block img{
+    position: absolute;
+
+    bottom: -19px;
+    width: 200px;
+}
+.footer__contact__name img{
+    left: 80px;
+}

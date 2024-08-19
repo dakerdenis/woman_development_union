@@ -2463,6 +2463,8 @@ text-align: right;
     }
     .footer__contact__block{
       padding: 0;
+      background-position: -211px 0px;
+      background-size: cover;
     }
     .footer__contact__data{
       width: 334px;
@@ -2473,6 +2475,7 @@ text-align: right;
       position: relative;
 
       border-radius: 20px 0px 0px 0px;
+
     }
     .sheet__container5{
       display: none;
@@ -2503,5 +2506,9 @@ text-align: right;
       display: flex;
       flex-direction: column;
       visibility: visible;
+    }
+    .footer__created img{
+      width: 108px;
+      height: 33.9px;
     }
 }

@@ -2410,4 +2410,40 @@ width: 100%;
       left: 0;
       right: initial;
     }
+    .connection__name{
+      min-height: initial;
+    }
+    .news__name_block{
+      width: 95%;
+    }
+    .news__name_block p{
+
+font-size: 40px;
+font-weight: 800;
+line-height: 44px;
+text-align: right;
+
+    }
+    .news__name_block img{
+      position: absolute;
+    right: -33px;
+    z-index: 100;
+    bottom: 6px;
+    transform: scale(0.6);
+    }
+    .swiper{
+      overflow: initial;
+    }
+    .popup__name__container h2 {
+      font-size: 19.5px;
+    }
+    .popup-link{
+      font-size: 15px;
+      height: 43px;
+    }
+    .footer__contact__block {
+      max-width: initial;
+      width: 100%;
+      border-radius: 0;
+    }
 }

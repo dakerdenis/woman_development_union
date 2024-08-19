@@ -1504,7 +1504,10 @@ width: 100%;
   color: var(--second_blue);
   opacity: 0.8;
 }
-
+.sheet__container3_mobile{
+  display: none;
+  visibility: hidden;
+}
 
 @media only screen and (max-width: 1690px) {
   .hero__image {
@@ -2395,8 +2398,16 @@ width: 100%;
     .activities__container__photo img {
       border-radius: 20px;
     }
-    .sheet__container3{
+    .sheet__container3_pc{
       display: none;
       visibility: hidden;
+    }
+    .sheet__container3_mobile{
+      display: initial;
+      visibility: visible;
+    }
+    .sheet__container3{
+      left: 0;
+      right: initial;
     }
 }

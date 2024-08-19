@@ -184,13 +184,14 @@ html {
   font-weight: bold;
   /* Example font weight */
   max-width: 467px;
+  height: 34px;
 }
 
 .header__logo_placeholder span {
   color: #000;
   position: absolute;
   left: 200px;
-  bottom: 0;
+  bottom: 2px;
   font-size: 22px;
   background: linear-gradient(to right, #00743e, #002e3a);
   /* Define your gradient colors here */
@@ -434,7 +435,7 @@ html {
 }
 .hero__image video{
 width: 100%;
-height: 100%;
+
 
   position: absolute;
 
@@ -1507,8 +1508,7 @@ height: 100%;
 
 @media only screen and (max-width: 1690px) {
   .hero__image {
-    transform: scale(0.9);
-    right: 5%;
+
   }
 
   .popup-name {
@@ -1531,8 +1531,7 @@ height: 100%;
 
 @media only screen and (max-width: 1480px) {
   .hero__image {
-    transform: scale(0.9);
-    right: -2%;
+
   }
 
   .about__text {
@@ -1567,6 +1566,9 @@ height: 100%;
 }
 
 @media only screen and (max-width: 1370px) {
+  .hero__container{
+    padding-top: 0;
+  }
   .header {
     height: 80px;
   }
@@ -1576,8 +1578,7 @@ height: 100%;
   }
 
   .hero__image {
-    right: -8%;
-    transform: scale(0.75);
+
   }
 
   .header__logo_placeholder p {}
@@ -2182,18 +2183,32 @@ height: 100%;
     margin-top: 20px;
     width: 100%;
   }
+  .hero__name p{
+    color: #0f172a;
+  }
 }
 
 @media only screen and (max-width: 450px) {
   .hero__name p {
     font-size: 35px;
   }
-
+.hero__container{
+  padding-top: 60px;
+}
   .hero__desc_text {
     margin-top: 10px;
   }
-
-
+.hero__image {
+  max-width: 98%;
+}
+.header__underline {
+  transform: scale(0.3);
+  bottom: 19px;
+  left: 11px;
+}
+.header{
+  box-shadow: none;
+}
   .about__container {
     padding: 0 20px;
   }
@@ -2318,4 +2333,70 @@ height: 100%;
   .additional__links {
     width: 90%;
   }
+  .header__logo_placeholder span{
+    left: 141px;
+        bottom: 18px;
+  }
+  .about__image__block4{
+    height: 155px;
+  }
+  .about__name__block-founder .about__name{
+    right: 0;
+  }
+  .about__images__line2-mobile{
+    margin-top: 0px;
+  }
+  .sheet__container2 {
+    top: -224px;
+    transform: scale(1.1);
+  }
+  .from_founder .about__name__block img{
+    left: -10px;
+  }
+  .about_us{
+    margin-bottom: 0;
+  }
+  .additional__links img{
+    width: 150px;
+    position: absolute;
+    top: 31px;
+    right: 135px;
+  }
+  .additional__links__name p {
+    text-align: right;
+  }
+  .additional__links__name {
+    height: 80px;
+    }
+    .additional_link__element-name{
+      font-size: 15px;
+      line-height: 20px;
+      font-weight: 400;
+    }
+    .activities__container__list p{
+      font-size: 16px;
+      font-weight: 400;
+    }
+    .activities__name_block {
+      margin-bottom: 40px;
+    }
+    .activities__name_block p{
+      text-align: right;
+    }
+    
+    .activities__name_block img {
+      transform: scale(0.6);
+      position: absolute;
+      bottom: -15px;
+      left: 12px;
+      z-index: 100;
+      width: 327px;
+    }
+    .activities__container__photo img {
+      border-radius: 20px;
+    }
+    .sheet__container3{
+      display: none;
+      visibility: hidden;
+    }
 }

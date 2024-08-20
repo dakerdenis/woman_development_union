@@ -1,5 +1,6 @@
 .about__name__block-founder img{
-    right: 0;
+    right: -35px;
+    transform: scale(0.65);
 }
 
 .activities__name_block{
@@ -13,4 +14,50 @@
 }
 .footer__contact__name img{
     left: 80px;
+}
+.activities .activities__name_block img {
+    transform: scale(0.8);
+    position: absolute;
+    bottom: -15px;
+    left: -20px;
+}
+.header__underline {
+    position: absolute;
+    object-fit: cover;
+    transform: scale(0.55);
+    bottom: 11px;
+    left: 46px;
+    z-index: 100;
+}
+@media only screen and (max-width: 1380px) {
+    .header__underline{
+        position: absolute;
+        object-fit: cover;
+        transform: scale(0.4);
+        bottom: 13px;
+        left: 23px;
+        z-index: 100;
+    }
+}
+@media only screen and (max-width: 500px) {
+    .hero__name p{
+        font-size: 33px;
+        line-height: 41.8px;
+    }
+    .from_founder .about__name__block img{
+        left: 121px;
+        transform: scale(0.4);
+    }
+    .additional__links__name p{
+        font-size: 30px;
+        text-align: center;
+    }
+    .additional__links img{
+        top: 27px;
+        right: 177px;
+    }
+    .activities .activities__name_block img {
+        left: 158px;
+
+}
 }

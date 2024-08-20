@@ -2281,6 +2281,20 @@ box-shadow: 0px 20px 25px -5px #0000001A;
   .hero__name p{
     color: #0f172a;
   }
+
+
+  .additional__links {
+    width: 100%;
+  }
+
+
+
+  .additional__links__wrapper{
+    flex-wrap: nowrap;
+    align-items: center;
+    justify-content: center;
+    flex-direction: column;
+  }
 }
 
 @media only screen and (max-width: 450px) {

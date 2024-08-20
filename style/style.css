@@ -1280,6 +1280,7 @@ width: 100%;
   top: 10px;
   width: 69px;
   height: 80px;
+  z-index: 1000;
 }
 
 .close-btn img {
@@ -1688,6 +1689,14 @@ width: 100%;
     bottom: 8px;
 
   }
+  .about_us .about__images {
+    width: 620px;
+  }
+  .about_us .about__text {
+    max-width: 573px;
+    font-size: 17px;
+  }
+
 }
 
 @media only screen and (max-width: 770px) {
@@ -2660,11 +2669,23 @@ text-align: right;
       .from_founder .about__name__block img {
         left: -14px;
       }
-      @media only screen and (max-width: 450px) {
+
 
         .footer__contact__data {
           right: -55px;
         }
-        
-      }
+        .about_us .about__name__block img {
+          bottom: -2px;
+          transform: scale(0.6);
+          left: -26px;
+        }
+        .about__images__line1{
+          right: 55px;
+        }
+        .activities .activities__name_block img {
+          transform: scale(0.68);
+          position: absolute;
+          bottom: -16px;
+          left: 11px;
+        }
 }

@@ -156,11 +156,10 @@ html {
 
 .header__underline {
   position: absolute;
-
   object-fit: cover;
-  transform: scale(0.7);
-  bottom: 6px;
-  left: 50px;
+  transform: scale(0.5);
+  bottom: 11px;
+  left: 38px;
   z-index: 100;
 }
 
@@ -664,6 +663,7 @@ width: 100%;
   z-index: 100;
   bottom: -11px;
   right: 168px;
+  transform: scale(0.84);
 }
 
 .activities {
@@ -1524,7 +1524,23 @@ width: 100%;
   display: none;
   visibility: hidden;
 }
+.about_us .about__name__block img{
+  position: absolute;
+  z-index: 100;
+  bottom: -11px;
+  transform: scale(0.85);
+  left: -13px;
+}
 
+.activities__name_block{
+  position: relative;
+}
+.activities .activities__name_block img{
+  transform: scale(0.8);
+  position: absolute;
+  bottom: -26px;
+  left: -36px;
+}
 @media only screen and (max-width: 1690px) {
   .hero__image {
 

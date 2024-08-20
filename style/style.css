@@ -170,7 +170,7 @@ html {
 
 .header__logo_placeholder p {
   display: block;
-  width: 360px;
+  width: 374px;
   margin-left: 10px;
   position: relative;
   z-index: 200;
@@ -359,7 +359,7 @@ html {
   position: absolute;
   left: 10%;
   height: 320px;
-  width: 574px;
+  width: 585px;
   top: calc(50% - 160px);
   color: var(--dark);
   z-index: 400;
@@ -512,7 +512,7 @@ width: 100%;
   /* Example font size */
   font-weight: bold;
   /* Example font weight */
-  max-width: 467px;
+  max-width: 546px;
 }
 
 .about__wrapper {

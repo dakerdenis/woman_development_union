@@ -581,6 +581,10 @@
               etdirilməsi sahələrində fəaliyyət göstərən publik hüquqi şəxsdir.
 
             </div>
+            <div class="read_more-block">
+              <button class="read-more-btn">Ətraflı məlumat</button>
+            </div>
+
           </div>
           <!----------->
           <!----------->
@@ -610,6 +614,9 @@
               proseslər arasında uyğunluğun olmasını təmin etmək üçün çalışırıq.
 
             </div>
+            <div class="read_more-block">
+              <button class="read-more-btn">Ətraflı məlumat</button>
+            </div>
           </div>
           <!----------->
           <div class="connection__element connection__element_mobile-sheets">
@@ -637,6 +644,9 @@
               We listen to communities that are most at risk, strengthen the capacity of civil society organisations,
               and advocate for risk-informed development and localisation.
 
+            </div>
+            <div class="read_more-block">
+              <button class="read-more-btn">Ətraflı məlumat</button>
             </div>
             <div class="sheet_mobile5">
               <img src="./assets/sheets/sheet_connections_mobile2.svg" alt="">
@@ -668,6 +678,9 @@
               yoxdur.
 
             </div>
+            <div class="read_more-block">
+              <button class="read-more-btn">Ətraflı məlumat</button>
+            </div>
           </div>
           <!----------->
           <div class="connection__element">
@@ -695,6 +708,9 @@
               tez-tez ətraf mühitin deqradasiyasına və mədəniyyətlərin və ənənələrin itirilməsinə səbəb olur. Buna görə
               də, təbii ehtiyatlardan davamlı şəkildə istifadə və idarə etməyin indiki və gələcək nəsillərə fayda
               gətirəcək yol və vasitələrin araşdırılması vacibdir.
+            </div>
+            <div class="read_more-block">
+              <button class="read-more-btn">Ətraflı məlumat</button>
             </div>
           </div>
           <!----------->
@@ -972,6 +988,51 @@
         });
       });
     });
+
+
+
+
+
+
+
+
+    document.addEventListener('DOMContentLoaded', () => {
+      const elements = document.querySelectorAll('.connection__element');
+    
+      elements.forEach(element => {
+        const readMoreBtn = element.querySelector('.read-more-btn');
+        const textElement = element.querySelector('.connection__text');
+    
+        readMoreBtn.addEventListener('click', () => {
+          const isExpanded = element.classList.contains('expanded');
+          closeAllElements(); // Close all other expanded elements
+    
+          if (!isExpanded) {
+            element.classList.add('expanded');
+            readMoreBtn.textContent = 'Bağlamaq';
+          } else {
+            element.classList.remove('expanded');
+            readMoreBtn.textContent = 'Ətraflı məlumat';
+          }
+        });
+      });
+    
+      // Function to close all expanded elements
+      function closeAllElements() {
+        elements.forEach(element => {
+          element.classList.remove('expanded');
+          element.querySelector('.read-more-btn').textContent = 'Ətraflı məlumat';
+        });
+      }
+    
+      // Close text when clicking outside of any connection__element
+      document.addEventListener('click', (event) => {
+        if (!event.target.closest('.connection__element')) {
+          closeAllElements();
+        }
+      });
+    });
+    
   </script>
 
   <script src="script.js"></script>

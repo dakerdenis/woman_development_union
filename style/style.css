@@ -942,6 +942,8 @@ width: 100%;
   line-height: 28.8px;
   text-align: left;
   color: var(--dark);
+  max-height: 200px;
+  overflow: hidden;
 }
 
 /********NEWS***********/
@@ -1659,8 +1661,42 @@ background-size: cover;
   background-color: #002e3a;
   background-image: url('../assets/activities/5.png');
 }
+.activities .swiper-slide:hover {
+  background-color: #7FCC284D;
+}
+.connection__element.expanded .connection__text {
+  max-height: none;
+}
 
 
+.read-more-btn {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  margin-top: 10px;
+  background: linear-gradient(90deg, #006838 0%, #003A48 100%);
+  color: #fff;
+  border: none;
+  width: 123px;
+  height: 32px;
+  cursor: pointer;
+  border-radius: 8px;
+
+  font-family: Roboto;
+font-size: 12px;
+font-weight: 700;
+line-height: 24px;
+letter-spacing: 0.5px;
+text-align: left;
+
+}
+
+.read-more-btn:hover {
+  background-color: #004c28;
+}
+.connections__wrapper2{
+  margin-top: 45px;
+}
 @media only screen and (max-width: 1690px) {
   .hero__image {
 

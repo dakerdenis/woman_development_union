@@ -944,6 +944,7 @@ width: 100%;
   color: var(--dark);
   max-height: 200px;
   overflow: hidden;
+  transition: max-height 0.3s ease, padding 0.3s ease;
 }
 
 /********NEWS***********/

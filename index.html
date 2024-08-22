@@ -659,7 +659,7 @@
 
 
         </div>
-        <div class="connections__wrapper connections__wrapper2" style="justify-content: space-evenly;">
+        <div class="connections__wrapper connections__wrapper2" >
           <!----------->
           <div class="connection__element">
             <div class="connection__element__image">
@@ -969,7 +969,7 @@
       <img src="./assets/popup_close.svg" alt="" />
     </span>
     <img id="popup2-img" src="" alt="Popup Image" class="popup2-image" />
-    <h2 id="popup2-name"></h2>
+    <h2 class="gradient-text" id="popup2-name"></h2>
     <div id="popup2-text"></div>
   </div>
 </div>
@@ -1035,7 +1035,7 @@
         popup2Img.src = imgSrc;
         
         // Show popup2
-        popup2.style.display = 'block';
+        popup2.style.display = 'flex';
         document.body.classList.add('no-scroll');
       });
     });

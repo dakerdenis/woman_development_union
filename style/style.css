@@ -1751,6 +1751,8 @@ width: 100%;
 .popup2 {
   display: none;
   position: fixed;
+  justify-content: center;
+  align-items: center;
   z-index: 1001;
   left: 0;
   top: 0;
@@ -1762,12 +1764,12 @@ width: 100%;
 
 .popup2-content {
   background-color: #fff;
-  margin: 15% auto;
-  padding: 20px;
+  margin: 0 auto;
+  padding: 49px;
   border-radius: 8px;
-  width: 80%;
-  max-width: 500px;
-  position: relative;
+  width: 1000px;
+
+
 }
 
 .close-btn2 {
@@ -1778,10 +1780,19 @@ width: 100%;
   cursor: pointer;
 }
 #popup2-name{
-  color: #000;
+  font-size: 35px;
+  margin-top: 20px;
+  line-height: 40px;
+  max-width: initial;
+  min-height:75px;
 }
 #popup2-text{
-  color: #000;
+  color: #0F172A;
+font-size: 18px;
+font-weight: 400;
+line-height: 28.8px;
+text-align: left;
+margin-bottom: ;
 }
 
 @media only screen and (max-width: 1690px) {

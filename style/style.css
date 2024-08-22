@@ -900,7 +900,7 @@ width: 100%;
 }
 
 .connections__wrapper2 .connection__element {
-  width: 40%;
+  width: 366px;
 }
 
 .connection__element {
@@ -1508,12 +1508,20 @@ width: 100%;
   flex-direction: column;
   padding-left: calc(24px + 53px);
 }
+.additional_link__element:hover .additional_link__element-name {
+  color: var(--green);
+}
+.additional_link__element:hover img{
+  transform:  rotate(90deg);
+}
+
 .additional_link__element img{
   height: 53px;
   width: 53px;
   position: absolute;
   left: 0;
   top: calc(50% - 26.5px);
+  transition: ease-in 0.4s;
 }
 .additional_link__element-name {
   color: #000;
@@ -1700,7 +1708,14 @@ text-align: left;
 }
 .connections__wrapper2{
   margin-top: 45px;
+  justify-content: initial;
 }
+.connections__wrapper2 .connection__element{
+  margin-right: 77px;
+}
+
+
+
 .activities .swiper-slide:nth-child(6) p{
   font-size: 13px;
 }
@@ -1731,6 +1746,44 @@ text-align: left;
 .about__name__block-founder{
 width: 100%;
 }
+/*****************POPUP 2********************/
+/* Popup2 Styles */
+.popup2 {
+  display: none;
+  position: fixed;
+  z-index: 1001;
+  left: 0;
+  top: 0;
+  width: 100%;
+  height: 100%;
+  overflow: auto;
+  background-color: rgba(0,0,0,0.8);
+}
+
+.popup2-content {
+  background-color: #fff;
+  margin: 15% auto;
+  padding: 20px;
+  border-radius: 8px;
+  width: 80%;
+  max-width: 500px;
+  position: relative;
+}
+
+.close-btn2 {
+  position: absolute;
+  right: 20px;
+  top: 10px;
+  font-size: 30px;
+  cursor: pointer;
+}
+#popup2-name{
+  color: #000;
+}
+#popup2-text{
+  color: #000;
+}
+
 @media only screen and (max-width: 1690px) {
   .hero__image {
 

@@ -959,6 +959,21 @@
         <!-- New link element -->
       </div>
     </div>
+
+
+
+    <!-- Popup2 container -->
+<div id="popup2" class="popup2">
+  <div class="popup2-content">
+    <span class="close-btn2">
+      <img src="./assets/popup_close.svg" alt="" />
+    </span>
+    <img id="popup2-img" src="" alt="Popup Image" class="popup2-image" />
+    <h2 id="popup2-name"></h2>
+    <div id="popup2-text"></div>
+  </div>
+</div>
+
   </div>
   <script src="https://unpkg.com/swiper/swiper-bundle.min.js"></script>
   <script>
@@ -992,52 +1007,54 @@
         });
       });
     });
+  </script>
 
-
-
-
-
-
-
-
-    document.addEventListener('DOMContentLoaded', () => {
-      const elements = document.querySelectorAll('.connection__element');
-    
-      elements.forEach(element => {
-        const readMoreBtn = element.querySelector('.read-more-btn');
-        const textElement = element.querySelector('.connection__text');
-    
-        readMoreBtn.addEventListener('click', () => {
-          const isExpanded = element.classList.contains('expanded');
-          closeAllElements(); // Close all other expanded elements
-    
-          if (!isExpanded) {
-            element.classList.add('expanded');
-            readMoreBtn.textContent = 'Bağlamaq';
-          } else {
-            element.classList.remove('expanded');
-            readMoreBtn.textContent = 'Ətraflı məlumat';
-          }
-        });
-      });
-    
-      // Function to close all expanded elements
-      function closeAllElements() {
-        elements.forEach(element => {
-          element.classList.remove('expanded');
-          element.querySelector('.read-more-btn').textContent = 'Ətraflı məlumat';
-        });
-      }
-    
-      // Close text when clicking outside of any connection__element
-      document.addEventListener('click', (event) => {
-        if (!event.target.closest('.connection__element')) {
-          closeAllElements();
-        }
+  <!-----POPUP 2------->
+<script>
+  document.addEventListener('DOMContentLoaded', () => {
+    const elements = document.querySelectorAll('.connection__element');
+    const popup2 = document.getElementById('popup2');
+    const popup2Name = document.getElementById('popup2-name');
+    const popup2Text = document.getElementById('popup2-text');
+    const popup2Img = document.getElementById('popup2-img');
+    const closeBtn2 = document.querySelector('.close-btn2');
+  
+    elements.forEach(element => {
+      const readMoreBtn = element.querySelector('.read-more-btn');
+      const textElement = element.querySelector('.connection__text');
+      const imgElement = element.querySelector('.connection__element__image img');
+  
+      readMoreBtn.addEventListener('click', () => {
+        const name = element.querySelector('.connection__name').textContent;
+        const text = textElement.textContent;
+        const imgSrc = imgElement.src;
+        
+        // Set popup2 content
+        popup2Name.textContent = name;
+        popup2Text.textContent = text;
+        popup2Img.src = imgSrc;
+        
+        // Show popup2
+        popup2.style.display = 'block';
+        document.body.classList.add('no-scroll');
       });
     });
-    
-  </script>
+  
+    closeBtn2.addEventListener('click', () => {
+      popup2.style.display = 'none';
+      document.body.classList.remove('no-scroll');
+    });
+  
+    window.addEventListener('click', (event) => {
+      if (event.target === popup2) {
+        popup2.style.display = 'none';
+        document.body.classList.remove('no-scroll');
+      }
+    });
+  });
+  
+</script>
+
 
   <script src="script.js"></script>
   <script src="popup-text.js"></script>

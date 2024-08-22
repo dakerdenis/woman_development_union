@@ -3,24 +3,11 @@
     transform: scale(0.65);
 }
 
-.activities__name_block{
-    position: relative;
-}
-.activities__name_block img{
-    position: absolute;
 
-    bottom: -19px;
-    width: 200px;
-}
 .footer__contact__name img{
     left: 80px;
 }
-.activities .activities__name_block img {
-    transform: scale(0.8);
-    position: absolute;
-    bottom: -15px;
-    left: -20px;
-}
+
 .header__underline {
     position: absolute;
     object-fit: cover;
@@ -29,35 +16,27 @@
     left: 46px;
     z-index: 100;
 }
-@media only screen and (max-width: 1380px) {
-    .header__underline{
-        position: absolute;
-        object-fit: cover;
-        transform: scale(0.4);
-        bottom: 13px;
-        left: 23px;
-        z-index: 100;
-    }
+.header__logo_placeholder span{
+    left: 309px;
+    bottom: 6px;
 }
-@media only screen and (max-width: 500px) {
-    .hero__name p{
-        font-size: 33px;
-        line-height: 41.8px;
-    }
-    .from_founder .about__name__block img{
-        left: 121px;
-        transform: scale(0.4);
-    }
-    .additional__links__name p{
-        font-size: 30px;
-        text-align: center;
-    }
-    .additional__links img{
-        top: 27px;
-        right: 177px;
-    }
-    .activities .activities__name_block img {
-        left: 158px;
 
+.additional__links .additional__links__name{
+    max-width: 550px;
+    
 }
+.additional__links__name p{
+    max-width: initial;
+}
+
+@media only screen and (max-width: 1370px) {
+    .header__underline {
+        transform: scale(0.45);
+        bottom: 11px;
+        left: 22px;
+    }
+    .header__logo_placeholder span {
+        left: 235px;
+    bottom: 10px;
+    }
 }

@@ -1698,6 +1698,18 @@ text-align: left;
 .connections__wrapper2{
   margin-top: 45px;
 }
+.activities .swiper-slide:nth-child(6) p{
+  font-size: 13px;
+}
+.activities .swiper-slide:nth-child(7) p{
+  font-size: 13px;
+}
+.activities .swiper-slide:nth-child(14) p{
+  font-size: 13px;
+}
+.activities .swiper-slide:nth-child(17) p{
+  font-size: 13px;
+}
 @media only screen and (max-width: 1690px) {
   .hero__image {
 

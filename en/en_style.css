@@ -28,6 +28,10 @@
 .additional__links__name p{
     max-width: initial;
 }
+.activities .activities__name_block img{
+    transform: scale(0.5);
+    left: -102px;
+}
 
 @media only screen and (max-width: 1370px) {
     .header__underline {

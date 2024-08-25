@@ -1795,8 +1795,22 @@ line-height: 28.8px;
 text-align: left;
 
 }
-
+.hero__container{
+  min-height: 1000px;
+}
+.about_us {
+  margin-top: 125px;
+}
+.founder__wrapper {
+  margin-top: 60px;
+}
+.mobile__sheet6{
+  display: none;
+}
 @media only screen and (max-width: 1690px) {
+  .hero__container{
+    min-height: 800px;
+  }
   .hero__image {
 
   }
@@ -1831,6 +1845,7 @@ text-align: left;
   .about_us {
     height: 100%;
     margin-bottom: 40px;
+    margin-top: 100px;
   }
 
   .activities__wrapper,
@@ -1861,6 +1876,9 @@ text-align: left;
   }
   .activities__name_block{
     width: 1350px;
+  }
+  .hero__container{
+    min-height: 800px;
   }
 }
 

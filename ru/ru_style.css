@@ -1,0 +1,15 @@
+.hero__name{
+    font-size: 46px;
+}
+.about__text {
+    width: 623px;
+    font-size: 16.5px;
+}
+.about_us{
+    margin-bottom: 50px;
+}
+
+.additional_link__element {
+    height: 110px;
+    margin-bottom: 30px;
+}

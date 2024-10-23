@@ -2064,7 +2064,7 @@ html {
     width: 90%;
     font-size: 13px;
     line-height: 18px;
-    
+
   }
 
   .header_navigation {
@@ -2623,6 +2623,27 @@ html {
 
   .hero__name p {
     color: #0f172a;
+  }
+  .mobile__burger__language{
+    position: absolute;
+    top: 40px;
+    width: 100%;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    font-weight: 600;
+  z-index: 800;
+  }
+  .mobile__burger__language a{
+    display: flex;
+    align-items: center;
+    justify-content: center;
+    color: #fff;
+    background-color:#004c28;
+    border-radius: 5px;
+    padding: 5px 15px;
+     margin: 10px;
+
   }
 
 
@@ -3191,6 +3212,7 @@ html {
 
   .popup2-content img {
     height: 80px;
+    max-width: 200px;
   }
 
   .additional_link__element {

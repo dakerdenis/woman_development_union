@@ -44,3 +44,13 @@
     bottom: 10px;
     }
 }
+
+@media only screen and (max-width: 768px){
+    .header__logo_placeholder span {
+        left: 197px;
+        bottom: 20px;
+    }
+    .hero__button{
+        margin-top: 32px;
+    }
+}

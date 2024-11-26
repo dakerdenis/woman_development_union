@@ -13,3 +13,28 @@
     height: 110px;
     margin-bottom: 30px;
 }
+.about__additional{
+    color: #000;
+    max-width: 500px;
+    margin: 0 auto;
+    margin-top: 50px;
+    margin-bottom: 50px;
+    font-style: italic;
+    line-height: 18px;
+}
+
+
+@media only screen and (max-width: 768px){
+
+    .hero__button{
+        margin-top: 32px;
+    }
+    .about__additional{
+        max-width: 95%;
+        font-size: 12px;
+
+    }
+    .news__name_block img {
+    right: -68px;
+    }
+}

@@ -351,7 +351,7 @@ html {
   min-height: 720px;
   display: flex;
   justify-content: space-between;
-  padding-top: 30px;
+  padding-top: 18px;
   /* To prevent content from being hidden behind the fixed header */
 
   position: relative;
@@ -1863,7 +1863,10 @@ html {
   color: #000;
   line-height: 24px;
 }
-
+.mobile__nav{
+  display: none;
+  visibility: hidden;
+}
 @media only screen and (max-width: 1690px) {
   .hero__container {
     min-height: 800px;
@@ -1920,7 +1923,8 @@ html {
   }
 
   .slider__desc__name {
-    font-size: 28px;
+    font-size: 21px;
+    line-height: 36px;
   }
 
   .about__wrapper {
@@ -2566,6 +2570,7 @@ html {
   }
 
   .mobile__nav {
+    visibility: visible;
     position: fixed;
     right: -100%;
     top: 80px;
@@ -3300,4 +3305,38 @@ html {
   .founder__mobile__desc {
     font-size: 14.5px;
   }
+  .connection__element{
+    width: 100%;
+  }
+}
+
+@media only screen and (max-width: 360px){
+  .hero__desc {
+    margin-top: 10px;
+  }
+  .hero__name p {
+    font-size: 29px;
+  }
+  .foundr__mobile__imge {
+    height: 157px;
+    width: 140px;
+  }
+  .foundr__mobile__name {
+    font-size: 21px;
+  }
+  .additional__links__name img {
+    left: 21px;
+  }
+  .activities .activities__name_block img {
+    left: 85px;
+  }
+  .connections__name {
+    font-size: 24px;
+    width: 100%;
+  }
+  .news__name_block{
+    width: 100%;
+    text-align: center;
+  }
+  
 }

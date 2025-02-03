@@ -280,6 +280,7 @@ html {
 }
 
 .dropdown-content {
+  padding-top: 12px;
   display: none;
   position: absolute;
   align-items: center;
@@ -292,7 +293,7 @@ html {
   box-shadow: 0px 8px 16px 0px rgba(0, 0, 0, 0.2);
   z-index: 1;
   border-radius: 0px 0px 18px 18px;
-  bottom: -72%;
+  bottom: -94px;
 }
 
 .dropdown-content a {

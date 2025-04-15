@@ -831,9 +831,9 @@ html {
 }
 
 .slider__desc__name {
-  font-size: 26px;
+  font-size: 23px;
   font-weight: 700;
-  line-height: 44px;
+  line-height: 35px;
   text-align: left;
   color: var(--second_blue);
 }

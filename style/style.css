@@ -813,7 +813,11 @@ html {
 
 .slider__desc__container {
   height: 154px;
+  display: flex
+;
   width: 100%;
+  flex-direction: column;
+  justify-content: flex-start;
 }
 
 .slider__desc__desc {
@@ -1337,7 +1341,7 @@ html {
   position: absolute;
   z-index: 200;
   text-align: initial;
-  font-size: 56px;
+  font-size: 41px;
   font-weight: 800;
   line-height: 61.6px;
   background: linear-gradient(to right, #006838, #002e3a);
